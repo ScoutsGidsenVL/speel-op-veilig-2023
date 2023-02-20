@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:speel_op_veilig/pages/home.dart';
 import 'package:speel_op_veilig/pages/intro.dart';
 
 void main() {
@@ -30,6 +31,7 @@ class MyApp extends StatelessWidget {
         initialRoute: '/',
         routes: <String, WidgetBuilder>{
           '/': (context) => const Intro(),
+          '/home': (context) => const Home(),
         });
   }
 }
