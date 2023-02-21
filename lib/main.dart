@@ -32,6 +32,18 @@ class MyApp extends StatelessWidget {
           800: Color.fromRGBO(87, 38, 0, 1),
           900: Color.fromRGBO(87, 38, 0, 1),
         }),
+        textTheme: const TextTheme(
+            titleLarge: TextStyle(fontSize: 20),
+            bodyMedium: TextStyle(fontSize: 14),
+            bodySmall: TextStyle(fontSize: 14),
+            headlineLarge: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                color: Color.fromRGBO(87, 38, 0, 1)),
+            headlineMedium: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                color: Color.fromRGBO(116, 141, 38, 1))),
       ),
       initialRoute: '/intro',
       routes: <String, WidgetBuilder>{

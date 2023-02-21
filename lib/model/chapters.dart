@@ -27,10 +27,11 @@ class Chapter {
 
 @JsonSerializable(createToJson: false)
 class Subchapter {
-  Subchapter(this.title, this.content);
+  Subchapter(this.title, this.content, this.questions);
 
   String? title;
   List<Content>? content;
+  Questions? questions;
 
   factory Subchapter.fromJson(Map<String, dynamic> json) =>
       _$SubchapterFromJson(json);
@@ -62,10 +63,11 @@ class Item {
 
 @JsonSerializable(createToJson: false)
 class Questions {
-  Questions(this.title, this.icon, this.content);
+  Questions(this.title, this.icon, this.type, this.content);
 
   String title;
   String icon;
+  String? type;
   List<Question>? content;
 
   factory Questions.fromJson(Map<String, dynamic> json) =>
@@ -77,8 +79,8 @@ class Question {
   Question(this.question, this.type, this.answers);
 
   String question;
-  String type;
-  List<Answer>? answers;
+  String? type;
+  List<Answer> answers;
 
   factory Question.fromJson(Map<String, dynamic> json) =>
       _$QuestionFromJson(json);

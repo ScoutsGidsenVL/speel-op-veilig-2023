@@ -28,6 +28,9 @@ Subchapter _$SubchapterFromJson(Map<String, dynamic> json) => Subchapter(
       (json['content'] as List<dynamic>?)
           ?.map((e) => Content.fromJson(e as Map<String, dynamic>))
           .toList(),
+      json['questions'] == null
+          ? null
+          : Questions.fromJson(json['questions'] as Map<String, dynamic>),
     );
 
 Content _$ContentFromJson(Map<String, dynamic> json) => Content(
@@ -50,6 +53,7 @@ Item _$ItemFromJson(Map<String, dynamic> json) => Item(
 Questions _$QuestionsFromJson(Map<String, dynamic> json) => Questions(
       json['title'] as String,
       json['icon'] as String,
+      json['type'] as String?,
       (json['content'] as List<dynamic>?)
           ?.map((e) => Question.fromJson(e as Map<String, dynamic>))
           .toList(),
@@ -57,9 +61,9 @@ Questions _$QuestionsFromJson(Map<String, dynamic> json) => Questions(
 
 Question _$QuestionFromJson(Map<String, dynamic> json) => Question(
       json['question'] as String,
-      json['type'] as String,
-      (json['answers'] as List<dynamic>?)
-          ?.map((e) => Answer.fromJson(e as Map<String, dynamic>))
+      json['type'] as String?,
+      (json['answers'] as List<dynamic>)
+          .map((e) => Answer.fromJson(e as Map<String, dynamic>))
           .toList(),
     );
 

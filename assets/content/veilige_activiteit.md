@@ -6,11 +6,11 @@ Scouts en Gidsen Vlaanderen kent drie soorten a ctiviteiten: gewone scouts- en g
 ## Checklist voor een veilige activiteit
 Je handelt als leiding op een veilige manier als je ervoor zorgt dat …
 
-- [] iedereen zich fysiek en emotioneel veilig voelt
-- [] iedereen de kans krijgt om ‘neen’ te zeggen tegen de activiteit
-- [] je risicovolle activiteiten goed voorbereidt en daar met leden en leiding duidelijke afspraken over maakt
-- [] de activiteit past bij het ontwikkelingsniveau van de leden (verder in dit boekje vind je wat wel en niet kan per tak)
-- [] er altijd iemand van de leiding bereikbaar en aanspreekbaar is
+- iedereen zich fysiek en emotioneel veilig voelt
+- iedereen de kans krijgt om ‘neen’ te zeggen tegen de activiteit
+- je risicovolle activiteiten goed voorbereidt en daar met leden en leiding duidelijke afspraken over maakt
+- de activiteit past bij het ontwikkelingsniveau van de leden (verder in dit boekje vind je wat wel en niet kan per tak)
+- er altijd iemand van de leiding bereikbaar en aanspreekbaar is
 
 ## Scouts- en gidsenactiviteiten
 Deze activiteit kadert binnen de pedagogische methode of de visie van Scouts en Gidsen Vlaanderen zoals beschreven in ‘Kijk op Scouting’ en is toegankelijk voor elke scout en gids. Ze wordt begeleid door leiding die handelt als een voorzichtig en redelijk persoon. Alle gewone scouts- en gidsenactiviteiten vallen hieronder (bijvoorbeeld bos- en pleinspelen, zwemmen of fietstochten).

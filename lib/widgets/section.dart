@@ -15,7 +15,13 @@ class Section extends StatelessWidget {
         padding: const EdgeInsets.only(bottom: 10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [Text(title, style: titleStyle), ...children],
+          children: [
+            Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: Text(title,
+                    style: Theme.of(context).textTheme.headlineLarge)),
+            ...children
+          ],
         ));
   }
 }
