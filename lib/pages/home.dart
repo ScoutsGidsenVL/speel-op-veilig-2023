@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:speel_op_veilig/model/chapters.dart';
 import 'package:speel_op_veilig/widgets/section.dart';
 
 class Home extends StatefulWidget {
@@ -11,7 +12,7 @@ class Home extends StatefulWidget {
 }
 
 class HomeState extends State<Home> {
-  List _chapters = [];
+  List<Chapter> _chapters = [];
   final _infoPages = {
     '/veilige-activiteit': 'Veilige activiteit',
     '/verzekeringen': 'Verzekeringen en aansprakelijkheid',
@@ -26,7 +27,7 @@ class HomeState extends State<Home> {
     rootBundle.loadString('assets/data.json').then((source) async {
       final data = await json.decode(source);
       setState(() {
-        _chapters = data["chapters"];
+        _chapters = Chapters.fromJson(data).chapters;
       });
     });
   }
@@ -45,10 +46,13 @@ class HomeState extends State<Home> {
                     itemCount: _chapters.length,
                     itemBuilder: (context, index) {
                       return Card(
+                          child: InkWell(
+                        onTap: () => Navigator.pushNamed(
+                            context, '/${_chapters[index].url}'),
                         child: ListTile(
-                          title: Text(_chapters[index]["title"]),
+                          title: Text(_chapters[index].title),
                         ),
-                      );
+                      ));
                     },
                   )
                 : const Center(child: CircularProgressIndicator()),
