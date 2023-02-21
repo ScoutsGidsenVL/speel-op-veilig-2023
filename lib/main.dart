@@ -11,6 +11,9 @@ void main() {
   runApp(const MyApp());
 }
 
+const primary = Color.fromRGBO(87, 38, 0, 1);
+const secondary = Color.fromRGBO(116, 141, 38, 1);
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -19,32 +22,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Speel op Veilig',
       theme: ThemeData(
-        primaryColor: const Color.fromRGBO(87, 38, 0, 1),
-        primarySwatch: const MaterialColor(0xff572600, <int, Color>{
-          50: Color.fromRGBO(87, 38, 0, 1),
-          100: Color.fromRGBO(87, 38, 0, 1),
-          200: Color.fromRGBO(87, 38, 0, 1),
-          300: Color.fromRGBO(87, 38, 0, 1),
-          400: Color.fromRGBO(87, 38, 0, 1),
-          500: Color.fromRGBO(87, 38, 0, 1),
-          600: Color.fromRGBO(87, 38, 0, 1),
-          700: Color.fromRGBO(87, 38, 0, 1),
-          800: Color.fromRGBO(87, 38, 0, 1),
-          900: Color.fromRGBO(87, 38, 0, 1),
-        }),
-        textTheme: const TextTheme(
-            titleLarge: TextStyle(fontSize: 20),
+          colorScheme:
+              const ColorScheme.light(primary: primary, secondary: secondary),
+          textTheme: const TextTheme(
+            titleLarge:
+                TextStyle(fontFamily: "DCCAsh", fontSize: 24, letterSpacing: 1),
             bodyMedium: TextStyle(fontSize: 14),
             bodySmall: TextStyle(fontSize: 14),
-            headlineLarge: TextStyle(
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                color: Color.fromRGBO(87, 38, 0, 1)),
-            headlineMedium: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-                color: Color.fromRGBO(116, 141, 38, 1))),
-      ),
+            headlineLarge:
+                TextStyle(fontFamily: "DCCAsh", fontSize: 24, color: primary),
+            headlineMedium:
+                TextStyle(fontFamily: "DCCAsh", fontSize: 18, color: secondary),
+          )),
       initialRoute: '/intro',
       routes: <String, WidgetBuilder>{
         '/intro': (context) => const Intro(),

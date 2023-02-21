@@ -30,15 +30,20 @@ en wees voorbereid.
 Kortom: speel op veilig.
         ''',
               style: TextStyle(
+                  fontFamily: 'DCCAsh',
                   color: Colors.white,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  shadows: [Shadow(blurRadius: 2)])),
+                  fontSize: 18,
+                  letterSpacing: 1)),
           FilledButton(
               onPressed: () {
                 Navigator.pushNamedAndRemoveUntil(context, '/', (_) => false);
               },
-              child: const Text('Ga verder')),
+              style: ButtonStyle(
+                  shape: MaterialStateProperty.all(const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(2.0)))),
+                  backgroundColor: MaterialStateProperty.all(
+                      Theme.of(context).colorScheme.secondary)),
+              child: const Text('GA VERDER')),
         ]),
       ),
     );

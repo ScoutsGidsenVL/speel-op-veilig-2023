@@ -35,7 +35,7 @@ class VragenState extends State<Vragen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Vraag en Antwoord')),
+        appBar: AppBar(title: const Text('VRAAG EN ANTWOORD')),
         body: ListView.builder(
             padding: const EdgeInsets.all(25),
             itemCount: _chapters.length,

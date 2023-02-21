@@ -1,6 +1,7 @@
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:speel_op_veilig/util.dart';
 
 class Verzekeringen extends StatefulWidget {
   const Verzekeringen({Key? key}) : super(key: key);
@@ -23,7 +24,7 @@ class VerzekeringenState extends State<Verzekeringen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Verzekeringen en aansprakelijkheid')),
-        body: Markdown(data: _body));
+        appBar: AppBar(title: const Text('VERZEKERINGEN EN AANSPRAKELIJKHEID')),
+        body: Markdown(data: _body, styleSheet: markdownStyle(context)));
   }
 }

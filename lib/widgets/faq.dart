@@ -23,7 +23,7 @@ class Faq extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(answer.key,
+                        Text('${answer.key}:',
                             style: Theme.of(context).textTheme.bodySmall),
                         Text(answer.value,
                             style: Theme.of(context)

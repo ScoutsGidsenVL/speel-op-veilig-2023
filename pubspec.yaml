@@ -68,6 +68,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/content/
+    - assets/fonts/
     - assets/images/
     - assets/data.json
 
@@ -96,3 +97,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: DCCAsh
+      fonts:
+        - asset: assets/fonts/dccash.ttf
