@@ -36,8 +36,7 @@ Kortom: speel op veilig.
                   shadows: [Shadow(blurRadius: 2)])),
           FilledButton(
               onPressed: () {
-                Navigator.pushNamedAndRemoveUntil(
-                    context, '/home', (_) => false);
+                Navigator.pushNamedAndRemoveUntil(context, '/', (_) => false);
               },
               child: const Text('Ga verder')),
         ]),
