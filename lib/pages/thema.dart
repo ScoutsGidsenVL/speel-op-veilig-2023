@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:speel_op_veilig/model/chapters.dart';
-import 'package:speel_op_veilig/widgets/rule.dart';
+import 'package:speel_op_veilig/widgets/rules.dart';
 
 class Thema extends StatefulWidget {
   const Thema({Key? key, required this.name}) : super(key: key);
@@ -19,7 +19,9 @@ class ThemaState extends State<Thema> {
   @override
   initState() {
     super.initState();
-    rootBundle.loadString('assets/data.json').then((source) async {
+    Future.delayed(const Duration(milliseconds: 200))
+        .then((_) => rootBundle.loadString('assets/data.json'))
+        .then((source) async {
       final data = await json.decode(source);
       setState(() {
         _chapter = Chapters.fromJson(data)
@@ -38,7 +40,10 @@ class ThemaState extends State<Thema> {
           : ListView(
               padding: const EdgeInsets.all(20),
               children: _chapter!.subchapters
-                  .map((s) => Column(
+                  .where((s) => s.content?.isNotEmpty ?? false)
+                  .map((s) => Padding(
+                      padding: const EdgeInsets.only(bottom: 24),
+                      child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             s.title?.isEmpty ?? false
@@ -47,14 +52,18 @@ class ThemaState extends State<Thema> {
                                     style: Theme.of(context)
                                         .textTheme
                                         .headlineLarge),
+                            s.description == null
+                                ? Container()
+                                : Text(s.description!),
                             ...s.content
                                     ?.map((i) => Rules(
                                         type: i.type,
                                         title: i.title,
+                                        description: i.description,
                                         rules: i.list ?? []))
                                     .toList() ??
                                 []
-                          ]))
+                          ])))
                   .toList(),
             ),
     );

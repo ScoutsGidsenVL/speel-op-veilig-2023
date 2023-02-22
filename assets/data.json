@@ -985,7 +985,7 @@
                 },
                 {
                     "title": "Fietsers",
-                    "bschrijving": "De verplichte uitrusting van een fiets is: een bel (hoorbaar tot 20m), twee goed functionerende remmen en reflectoren. Als het donker is of bij verminderde zichtbaarheid moeten fiets of fietser vooraan een wit (knipper)licht en achteraan een rood (knipper)licht dragen.",
+                    "description": "De verplichte uitrusting van een fiets is: een bel (hoorbaar tot 20m), twee goed functionerende remmen en reflectoren. Als het donker is of bij verminderde zichtbaarheid moeten fiets of fietser vooraan een wit (knipper)licht en achteraan een rood (knipper)licht dragen.",
                     "content": [
                         {
                             "title": "Wet over fietsers",
@@ -994,7 +994,7 @@
                             "list": [
                                 {
                                     "title": "Fiets je met **minder dan vijftien** fietsers? Dan volg je de regels voor de individuele fietser.",
-                                    "itmes": [
+                                    "items": [
                                         {
                                             "item": "**Fiets altijd op het fietspad.** Op een fietspad mag je met zoveel personen naast elkaar fietsen als de breedte toelaat. Let op: andere weggebruikers mogen daarbij niet gehinderd worden."
                                         },
@@ -1031,7 +1031,7 @@
                             "list": [
                                 {
                                     "item": "Fiets niet met kapoenen en zeehondjes op de openbare weg.",
-                                    "why": ". Pas vanaf 10 jaar kunnen kinderen reageren op risico’s, koers houden op de fiets, achterom kijken en richting aangeven zonder te slingeren. Vanaf twaalf jaar kunnen ze een ingewikkelde verkeerssituatie met meerdere auto’s beoordelen, en pas een jaar later kunnen ze langzaam fietsen zonder te slingeren. Het vermogen om je aandacht ergens bij te houden en informatie te verwerken, ontwikkelt zich nog verder tot de leeftijd van vijftien jaar."
+                                    "why": "Pas vanaf 10 jaar kunnen kinderen reageren op risico’s, koers houden op de fiets, achterom kijken en richting aangeven zonder te slingeren. Vanaf twaalf jaar kunnen ze een ingewikkelde verkeerssituatie met meerdere auto’s beoordelen, en pas een jaar later kunnen ze langzaam fietsen zonder te slingeren. Het vermogen om je aandacht ergens bij te houden en informatie te verwerken, ontwikkelt zich nog verder tot de leeftijd van vijftien jaar."
                                 },
                                 {
                                     "item": "Bij beperkte zichtbaarheid dragen alle leden en leid(st)ers fluohesjes als ze de weg op gaan."

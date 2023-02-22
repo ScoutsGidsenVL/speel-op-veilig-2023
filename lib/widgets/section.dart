@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Section extends StatelessWidget {
-  final String title;
+  final Widget title;
   final List<Widget> children;
 
   const Section({Key? key, required this.title, this.children = const []})
@@ -14,10 +14,7 @@ class Section extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Padding(
-                padding: const EdgeInsets.only(bottom: 10),
-                child: Text(title,
-                    style: Theme.of(context).textTheme.headlineLarge)),
+            Padding(padding: const EdgeInsets.only(bottom: 10), child: title),
             ...children
           ],
         ));

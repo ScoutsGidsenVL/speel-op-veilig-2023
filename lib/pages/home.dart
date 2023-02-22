@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:speel_op_veilig/widgets/custom_icon.dart';
 import 'package:speel_op_veilig/widgets/section.dart';
 
 class Home extends StatefulWidget {
@@ -40,27 +41,37 @@ class HomeState extends State<Home> {
         padding: const EdgeInsets.all(20),
         children: [
           Section(
-            title: 'Thema\'s',
+            title: Text('Thema\'s',
+                style: Theme.of(context).textTheme.headlineLarge),
             children: _chapters
-                .map((c) => Card(
-                        child: InkWell(
-                      onTap: () => Navigator.pushNamed(context, '/${c.url}'),
-                      child: ListTile(
-                        title: Text(c.title),
-                      ),
-                    )))
+                .map((c) => TextButton(
+                      onPressed: () =>
+                          Navigator.pushNamed(context, '/${c.url}'),
+                      child: Padding(
+                          padding: const EdgeInsets.all(8),
+                          child: Row(children: [
+                            CustomIcon(type: c.url, size: 16),
+                            Padding(
+                                padding: const EdgeInsets.only(left: 4),
+                                child: Text(c.title,
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .bodyMedium)),
+                          ])),
+                    ))
                 .toList(),
           ),
           Section(
-            title: 'Bijkomende info',
+            title: Text('Bijkomende info',
+                style: Theme.of(context).textTheme.headlineLarge),
             children: _infoPages
-                .map((i) => Card(
-                        child: InkWell(
-                      onTap: () => Navigator.pushNamed(context, i.key),
-                      child: ListTile(
-                        title: Text(i.value),
-                      ),
-                    )))
+                .map((i) => TextButton(
+                      onPressed: () => Navigator.pushNamed(context, i.key),
+                      child: Padding(
+                          padding: const EdgeInsets.all(8),
+                          child: Text(i.value,
+                              style: Theme.of(context).textTheme.bodyMedium)),
+                    ))
                 .toList(),
           ),
         ],

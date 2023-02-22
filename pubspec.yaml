@@ -102,3 +102,6 @@ flutter:
     - family: DCCAsh
       fonts:
         - asset: assets/fonts/dccash.ttf
+    - family: SpeelOpVeilig
+      fonts:
+        - asset: assets/fonts/speel_op_veilig.ttf

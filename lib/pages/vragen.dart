@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:speel_op_veilig/widgets/custom_icon.dart';
 import 'package:speel_op_veilig/widgets/faq.dart';
 import 'package:speel_op_veilig/widgets/section.dart';
 
@@ -41,7 +42,13 @@ class VragenState extends State<Vragen> {
             itemCount: _chapters.length,
             itemBuilder: (context, index) {
               return Section(
-                title: _chapters[index].title.toUpperCase(),
+                title: Row(children: [
+                  CustomIcon(type: _chapters[index].icon, size: 20),
+                  Padding(
+                      padding: const EdgeInsets.only(left: 4),
+                      child: Text(_chapters[index].title.toUpperCase(),
+                          style: Theme.of(context).textTheme.headlineLarge)),
+                ]),
                 children: _chapters[index]
                         .content
                         ?.map((e) => Faq(

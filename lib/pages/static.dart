@@ -3,28 +3,32 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:speel_op_veilig/util.dart';
 
-class Crisis extends StatefulWidget {
-  const Crisis({Key? key}) : super(key: key);
+class Static extends StatefulWidget {
+  const Static({Key? key, required this.path, required this.title})
+      : super(key: key);
+
+  final String path;
+  final String title;
 
   @override
-  CrisisState createState() => CrisisState();
+  StaticState createState() => StaticState();
 }
 
-class CrisisState extends State<Crisis> {
+class StaticState extends State<Static> {
   String _body = '';
 
   @override
   initState() {
     super.initState();
-    rootBundle
-        .loadString('assets/content/crisis.md')
+    Future.delayed(const Duration(milliseconds: 200))
+        .then((_) => rootBundle.loadString('assets/content/${widget.path}.md'))
         .then((source) => setState(() => _body = source));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('CRISIS- EN NOODSITUATIES')),
+        appBar: AppBar(title: Text(widget.title.toUpperCase())),
         body: Markdown(
             data: _body,
             styleSheet: markdownStyle(context),

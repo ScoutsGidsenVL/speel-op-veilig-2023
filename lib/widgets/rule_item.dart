@@ -1,19 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:speel_op_veilig/util.dart';
+import 'package:speel_op_veilig/widgets/custom_icon.dart';
 
 class RuleItem extends StatelessWidget {
   final String? text;
   final String? why;
+  final String? type;
 
-  const RuleItem({Key? key, required this.text, required this.why})
+  const RuleItem(
+      {Key? key, required this.text, required this.why, required this.type})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Padding(
         padding: const EdgeInsets.only(top: 8, bottom: 8),
-        child: Row(children: [
+        child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          type == null
+              ? Container()
+              : Padding(
+                  padding: const EdgeInsets.only(top: 4, right: 2),
+                  child: CustomIcon(type: type!, color: true)),
           Flexible(
               fit: FlexFit.tight,
               child: MarkdownBody(

@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:speel_op_veilig/pages/home.dart';
-import 'package:speel_op_veilig/pages/info/crisis.dart';
-import 'package:speel_op_veilig/pages/info/veilige_activiteit.dart';
-import 'package:speel_op_veilig/pages/info/verzekeringen.dart';
-import 'package:speel_op_veilig/pages/info/vragen.dart';
-import 'package:speel_op_veilig/pages/info/wegwijs.dart';
+import 'package:speel_op_veilig/pages/static.dart';
+import 'package:speel_op_veilig/pages/vragen.dart';
+import 'package:speel_op_veilig/pages/wegwijs.dart';
 import 'package:speel_op_veilig/pages/intro.dart';
 import 'package:speel_op_veilig/pages/thema.dart';
 
@@ -32,7 +30,8 @@ class MyApp extends StatelessWidget {
                 TextStyle(fontFamily: "DCCAsh", fontSize: 28, color: primary),
             headlineMedium:
                 TextStyle(fontFamily: "DCCAsh", fontSize: 24, color: secondary),
-            headlineSmall: TextStyle(fontSize: 20, color: primary),
+            headlineSmall: TextStyle(
+                fontSize: 18, color: primary, fontWeight: FontWeight.bold),
             bodyMedium: TextStyle(fontSize: 18),
             bodySmall: TextStyle(fontSize: 16),
           )),
@@ -40,9 +39,12 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         '/intro': (context) => const Intro(),
         '/': (context) => const Home(),
-        '/veilige-activiteit': (context) => const VeiligeActiviteit(),
-        '/verzekeringen': (context) => const Verzekeringen(),
-        '/crisis': (context) => const Crisis(),
+        '/veilige-activiteit': (context) => const Static(
+            path: 'veilige_activiteit', title: 'Een veilige activiteit'),
+        '/verzekeringen': (context) => const Static(
+            path: 'verzekeringen', title: 'Verzekeringen en aansprakelijkheid'),
+        '/crisis': (context) =>
+            const Static(path: 'crisis', title: 'Crisis-en-noodsituaties'),
         '/vragen-en-antwoorden': (context) => const Vragen(),
         '/wegwijs': (context) => const Wegwijs(),
         '/vuur': (context) => const Thema(name: 'vuur'),
