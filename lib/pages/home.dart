@@ -36,7 +36,11 @@ class HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('SPEEL OP VEILIG')),
+      appBar: AppBar(title: const Text('SPEEL OP VEILIG'), actions: [
+        IconButton(
+            onPressed: () => Navigator.of(context).pushNamed('/wegwijs'),
+            icon: const Icon(Icons.help_outline))
+      ]),
       body: ListView(
         padding: const EdgeInsets.all(20),
         children: [
@@ -69,8 +73,10 @@ class HomeState extends State<Home> {
                       onPressed: () => Navigator.pushNamed(context, i.key),
                       child: Padding(
                           padding: const EdgeInsets.all(8),
-                          child: Text(i.value,
-                              style: Theme.of(context).textTheme.bodyMedium)),
+                          child: Row(children: [
+                            Text(i.value,
+                                style: Theme.of(context).textTheme.bodyMedium)
+                          ])),
                     ))
                 .toList(),
           ),

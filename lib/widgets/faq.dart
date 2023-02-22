@@ -1,6 +1,18 @@
 import 'package:flutter/material.dart';
 
 class Faq extends StatelessWidget {
+  static const groups = {
+    'kapoenen-zeehondjes': 'Kapoenen en zeehondjes',
+    'kabouters-welpen': 'Kabouters en (zee)welpen',
+    'jonggidsen-verkenners-scheepsmakkers':
+        'Jonggidsen, verkenners en scheepsmakkers',
+    'gidsen-verkenners': 'Gidsen en (zee)verkenners',
+    'jins-loodsen': 'Jins en loodsen',
+    'open-kamp': 'Open kamp',
+    'akabe': 'Akabe',
+    'leiding': 'Leiding'
+  };
+
   final String question;
   final Map<String, String> answers;
 
@@ -21,7 +33,7 @@ class Faq extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('${answer.key}:',
+                        Text('${groups[answer.key]}:',
                             style: Theme.of(context).textTheme.bodySmall),
                         Text(answer.value,
                             style: Theme.of(context)
