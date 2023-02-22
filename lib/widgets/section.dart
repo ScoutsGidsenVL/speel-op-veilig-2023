@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Section extends StatelessWidget {
-  static const titleStyle = TextStyle(fontSize: 20);
-
   final String title;
   final List<Widget> children;
 

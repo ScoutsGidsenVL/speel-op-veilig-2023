@@ -5,7 +5,7 @@ De wet is wet. Daar kunnen we niet onderuit. Verschillende instanties maken wetg
 
 Bij elk thema vind je de belangrijkste Vlaamse en Waalse wettelijke bepalingen. Wetgeving is echter verschillend per regio en land. Daarom is het goed om de lokale en internationale wetgeving van bijvoorbeeld je kampplaats na te gaan. Het (internationaal) kampvisum kan daarbij een gids zijn.
 
-Wetgeving is constant in verandering. Bekijk daarom de [website](https://www.scoutsengidsenvlaanderen.be/publicatie/speel-op-veilig) voor de meest actuele versie van deze brochure.
+Wetgeving is constant in verandering. Bekijk daarom de [website](https://www.scoutsengidsenvlaanderen.be/publicaties/speel-op-veilig) voor de meest actuele versie van deze brochure.
 
 Waar en hoe je veilig kan spelen, wordt ook bepaald door veranderlijke omstandigheden. Over bijvoorbeeld (kans op) storm, overstromingen, brand, teken- of andere ongedierteplagen spreken we in deze brochure niet. We communiceren daarover via nieuwsberichten. Volg altijd de richtlijnen van overheden op.
 

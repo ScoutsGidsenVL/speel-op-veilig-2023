@@ -37,42 +37,32 @@ class HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(title: const Text('SPEEL OP VEILIG')),
       body: ListView(
-        padding: const EdgeInsets.all(25),
+        padding: const EdgeInsets.all(20),
         children: [
-          Section(title: 'Thema\'s', children: [
-            _chapters.isNotEmpty
-                ? ListView.builder(
-                    shrinkWrap: true,
-                    itemCount: _chapters.length,
-                    itemBuilder: (context, index) {
-                      return Card(
-                          child: InkWell(
-                        onTap: () => Navigator.pushNamed(
-                            context, '/${_chapters[index].url}'),
-                        child: ListTile(
-                          title: Text(_chapters[index].title),
-                        ),
-                      ));
-                    },
-                  )
-                : const Center(child: CircularProgressIndicator()),
-          ]),
-          Section(title: 'Bijkomende info', children: [
-            ListView.builder(
-              shrinkWrap: true,
-              itemCount: _infoPages.length,
-              itemBuilder: (context, index) {
-                return Card(
-                    child: InkWell(
-                  onTap: () =>
-                      Navigator.pushNamed(context, _infoPages[index].key),
-                  child: ListTile(
-                    title: Text(_infoPages[index].value),
-                  ),
-                ));
-              },
-            ),
-          ]),
+          Section(
+            title: 'Thema\'s',
+            children: _chapters
+                .map((c) => Card(
+                        child: InkWell(
+                      onTap: () => Navigator.pushNamed(context, '/${c.url}'),
+                      child: ListTile(
+                        title: Text(c.title),
+                      ),
+                    )))
+                .toList(),
+          ),
+          Section(
+            title: 'Bijkomende info',
+            children: _infoPages
+                .map((i) => Card(
+                        child: InkWell(
+                      onTap: () => Navigator.pushNamed(context, i.key),
+                      child: ListTile(
+                        title: Text(i.value),
+                      ),
+                    )))
+                .toList(),
+          ),
         ],
       ),
     );

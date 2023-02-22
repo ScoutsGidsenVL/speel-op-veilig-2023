@@ -25,6 +25,9 @@ class WegwijsState extends State<Wegwijs> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: const Text('WEGWIJS IN DEZE APP')),
-        body: Markdown(data: _body, styleSheet: markdownStyle(context)));
+        body: Markdown(
+            data: _body,
+            styleSheet: markdownStyle(context),
+            onTapLink: linkHandler(context)));
   }
 }

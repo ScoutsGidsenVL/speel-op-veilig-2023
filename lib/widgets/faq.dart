@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 class Faq extends StatelessWidget {
-  static const questionStyle = TextStyle(fontSize: 16);
-
   final String question;
   final Map<String, String> answers;
 

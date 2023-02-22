@@ -25,6 +25,9 @@ class VeiligeActiviteitState extends State<VeiligeActiviteit> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: const Text('EEN VEILIGE ACTIVITEIT')),
-        body: Markdown(data: _body, styleSheet: markdownStyle(context)));
+        body: Markdown(
+            data: _body,
+            styleSheet: markdownStyle(context),
+            onTapLink: linkHandler(context)));
   }
 }

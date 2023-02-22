@@ -12,13 +12,13 @@
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "In <b>Vlaanderen en Wallonië mag je een kampvuur maken als je 25 meter afstand houdt van bossen en wouden en 100 meter van huizen, heiden, boomgaarden,</b> … Elke gemeente kan nog extra regels opleggen in het politiereglement. De wetgeving kan ook veranderen door het weer (bv. code rood)."
+                                    "item": "In **Vlaanderen en Wallonië mag je een kampvuur maken als je 25 meter afstand houdt van bossen en wouden en 100 meter van huizen, heiden, boomgaarden,** … Elke gemeente kan nog extra regels opleggen in het politiereglement. De wetgeving kan ook veranderen door het weer (bv. code rood)."
                                 },
                                 {
                                     "item": "In Vlaanderen moet je afspraken maken met de eigenaar van de kampgrond. In Wallonië heb je toestemming nodig van de boseigenaar."
                                 },
                                 {
-                                    "item": "Wie een <b>brand veroorzaakt door onvoldoende voorzorgsmaatregelen</b> te nemen, <b>pleegt</b> een <b>strafbaar</b> feit. Het gebruik van brandversnellers is bijvoorbeeld strafbaar. Je mag ook geen vuur maken op of naast de openbare weg. De rook kan het verkeer hinderen of onveilig maken door het zicht te belemmeren."
+                                    "item": "Wie een **brand veroorzaakt door onvoldoende voorzorgsmaatregelen** te nemen, **pleegt** een **strafbaar** feit. Het gebruik van brandversnellers is bijvoorbeeld strafbaar. Je mag ook geen vuur maken op of naast de openbare weg. De rook kan het verkeer hinderen of onveilig maken door het zicht te belemmeren."
                                 },
                                 {
                                     "item": "Afval verbranden in open lucht is verboden. Je mag enkel stoken met droog, onbewerkt hout."
@@ -220,13 +220,13 @@
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "<b>In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen.</b> Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden."
+                                    "item": "**In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen.** Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden."
                                 },
                                 {
-                                    "item": "<b>In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen'</b>: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
+                                    "item": "**In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen'**: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
                                 },
                                 {
-                                    "item": "<b>In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones.</b>"
+                                    "item": "**In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones.**"
                                 }
                             ]
                         },
@@ -283,7 +283,7 @@
                         "links": [
                             {
                                 "title": "kwaliteitzwemwater.be",
-                                "url": "http:\\www.kwaliteitzwemwater.be"
+                                "url": "http://www.kwaliteitzwemwater.be"
                             }
                         ]
                     },
@@ -292,7 +292,7 @@
                         "links": [
                             {
                                 "title": "environnement.wallonie.be/baignade",
-                                "url": "http:\\environnement.wallonie.be/baignade"
+                                "url": "http://environnement.wallonie.be/baignade"
                             }
                         ]
                     },
@@ -301,11 +301,11 @@
                         "links": [
                             {
                                 "title": "visurius.be/kano ",
-                                "url": "http:\\www.visurius.be/kano"
+                                "url": "http://www.visurius.be/kano"
                             },
                             {
                                 "title": "kayak.environnement.wallonie.be",
-                                "url": "http:\\kayak.environnement.wallonie.be",
+                                "url": "http://kayak.environnement.wallonie.be",
                                 "description": "kajakzones"
                             }
                         ]
@@ -323,7 +323,7 @@
                         "links": [
                             {
                                 "title": "ikwv.be",
-                                "url": "http:\\www.ikwv.be"
+                                "url": "http://www.ikwv.be"
                             }
                         ]
                     },
@@ -332,7 +332,7 @@
                         "links": [
                             {
                                 "title": "sport.vlaanderen",
-                                "url": "http:\\www.sport.vlaanderen",
+                                "url": "http://www.sport.vlaanderen",
                                 "description": "zoek op ‘uitleendiensten’"
                             },
                             {
@@ -345,7 +345,7 @@
                         "links": [
                             {
                                 "title": "natuurenbos.be/schaatsen",
-                                "url": "http:\\www.natuurenbos.be/schaatsen"
+                                "url": "http://www.natuurenbos.be/schaatsen"
                             }
                         ]
                     }
@@ -438,7 +438,7 @@
                         "links": [
                             {
                                 "title": "klimenbergsportfederatie.be",
-                                "url": "http:\\www.klimenbergsportfederatie.be"
+                                "url": "http://www.klimenbergsportfederatie.be"
                             }
                         ]
                     },
@@ -447,7 +447,7 @@
                         "links": [
                             {
                                 "title": "www.speleovvs.be",
-                                "url": "http:\\www.speleovvs.be"
+                                "url": "http://www.speleovvs.be"
                             }
                         ]
                     },
@@ -465,7 +465,7 @@
                         "links": [
                             {
                                 "title": "www.scoutsengidsenvlaanderen.be/grote-sjorconstructies",
-                                "url": "http:\\www.scoutsengidsenvlaanderen.be/grote-sjorconstructies"
+                                "url": "http://www.scoutsengidsenvlaanderen.be/grote-sjorconstructies"
                             }
                         ]
                     }
@@ -484,10 +484,10 @@
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "De meeste materialen moeten aan wettelijke normen voldoen, waarmee moet de fabrikant rekening houden. Als een voorzichtig en redelijk persoon <b>ben je verplicht om het materiaal goed te onderhouden en om er voor te zorgen dat iedereen weet hoe hij of zij het moet gebruiken.</b>"
+                                    "item": "De meeste materialen moeten aan wettelijke normen voldoen, waarmee moet de fabrikant rekening houden. Als een voorzichtig en redelijk persoon **ben je verplicht om het materiaal goed te onderhouden en om er voor te zorgen dat iedereen weet hoe hij of zij het moet gebruiken.**"
                                 },
                                 {
-                                    "item": "<b>Volg altijd de veiligheidsvoorschriften en zorg dat je leden dat ook doen.</b> Zo vermijd je ongevallen."
+                                    "item": "**Volg altijd de veiligheidsvoorschriften en zorg dat je leden dat ook doen.** Zo vermijd je ongevallen."
                                 },
                                 {
                                     "item": "Voor speeltuigen, trampolines, schommels, klimrekken, springkastelen, kabelbanen of glijbanen bestaan strenge veiligheidsnormen. Zowel als ze vast als tijdelijk op je terrein staan."
@@ -613,7 +613,7 @@
                         "links": [
                             {
                                 "title": "scoutsengidsenvlaanderen.be",
-                                "url": "http:\\scoutsengidsenvlaanderen.be",
+                                "url": "http://scoutsengidsenvlaanderen.be",
                                 "description": "zoek op ‘speeltoestellen’"
                             }
                         ]
@@ -644,13 +644,13 @@
                                     "title": "Waar stappen?",
                                     "items": [
                                         {
-                                            "item": "<b>Wandel altijd op het voetpad.</b>"
+                                            "item": "**Wandel altijd op het voetpad.**"
                                         },
                                         {
-                                            "item": "Geen voetpad? Loop op <b>de begaanbare gelijkgrondse bermen.</b>"
+                                            "item": "Geen voetpad? Loop op **de begaanbare gelijkgrondse bermen.**"
                                         },
                                         {
-                                            "item": "Ook geen gelijkgrondse berm? Dan mag je stappen op het <b>fietspad</b> (verleen wel voorrang aan fietsers)."
+                                            "item": "Ook geen gelijkgrondse berm? Dan mag je stappen op het **fietspad** (verleen wel voorrang aan fietsers)."
                                         },
                                         {
                                             "item": "Kan dat ook niet? Dan mag je op de rijbaan wandelen. Stap altijd zo links mogelijk en achter elkaar.",
@@ -674,7 +674,7 @@
                                             "item": "Als het voetgangerslicht op rood springt tijdens het oversteken, dan mag enkel de groep die al op het zebrapad is, verder lopen. Wie nog op de stoep staat, moet wachten tot het groen wordt."
                                         },
                                         {
-                                            "item": "<b>Zijn er geen zebrapaden? Zorg dat je oversteekt op een veilige en zichtbare plaats </b>(niet in een bocht of op een helling)."
+                                            "item": "**Zijn er geen zebrapaden? Zorg dat je oversteekt op een veilige en zichtbare plaats** (niet in een bocht of op een helling)."
                                         }
                                     ]
                                 },
@@ -682,7 +682,7 @@
                                     "title": "Altijd zichtbaar",
                                     "items": [
                                         {
-                                            "item": "Volgens de wet moet je <b>altijd goed zichtbaar zijn in het verkeer.</b>"
+                                            "item": "Volgens de wet moet je **altijd goed zichtbaar zijn in het verkeer.**"
                                         },
                                         {
                                             "item": "Groepen vanaf vijf personen moeten verplicht een rood licht rechts vooraan en wit licht rechts achteraan dragen als je minder dan 200 meter ver kan zien.",
@@ -778,7 +778,7 @@
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "Overschrijd het maximum aantal zitplaatsen in de auto niet. <b>Per gordel één persoon is de regel, ook voor kinderen.</b>"
+                                    "item": "Overschrijd het maximum aantal zitplaatsen in de auto niet. **Per gordel één persoon is de regel, ook voor kinderen.**"
                                 }
                             ]
                         },
@@ -993,10 +993,10 @@
                             "description": "De wet onderscheidt bij fietsers drie soorten groepen.",
                             "list": [
                                 {
-                                    "title": "Fiets je met <b>minder dan vijftien</b> fietsers? Dan volg je de regels voor de individuele fietser.",
+                                    "title": "Fiets je met **minder dan vijftien** fietsers? Dan volg je de regels voor de individuele fietser.",
                                     "itmes": [
                                         {
-                                            "item": "<b>Fiets altijd op het fietspad.</b> Op een fietspad mag je met zoveel personen naast elkaar fietsen als de breedte toelaat. Let op: andere weggebruikers mogen daarbij niet gehinderd worden."
+                                            "item": "**Fiets altijd op het fietspad.** Op een fietspad mag je met zoveel personen naast elkaar fietsen als de breedte toelaat. Let op: andere weggebruikers mogen daarbij niet gehinderd worden."
                                         },
                                         {
                                             "item": "Is er geen fietspad? Dan mag je fietsen op parkeerzones en gelijkgrondse bermen aan de rechterkant."
@@ -1010,7 +1010,7 @@
                                     ]
                                 },
                                 {
-                                    "title": "Fiets je in een groep van <b>vijftien tot vijftig fietsers?</b>",
+                                    "title": "Fiets je in een groep van **vijftien tot vijftig fietsers?**",
                                     "items": [
                                         {
                                             "item": "Neem bij voorkeur het fietspad."
@@ -1126,7 +1126,7 @@
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "Kinderen kleiner dan 1,35 meter mogen enkel vervoerd worden met de wagen in een geschikt <b>kinderbeveiligingssysteem</b>. Sporadisch vervoer over een korte afstand van andermans kinderen ouder dan 3 jaar mag wel, als kinderen achterin zitten en een gordel dragen."
+                                    "item": "Kinderen kleiner dan 1,35 meter mogen enkel vervoerd worden met de wagen in een geschikt **kinderbeveiligingssysteem**. Sporadisch vervoer over een korte afstand van andermans kinderen ouder dan 3 jaar mag wel, als kinderen achterin zitten en een gordel dragen."
                                 },
                                 {
                                     "item": "Kinderen mogen, ongeacht hun leeftijd, voorin op de passagiersstoel zitten, op voorwaarde dat ze vastgemaakt worden zoals de wet het voorschrijft."
@@ -1179,7 +1179,7 @@
                         "links": [
                             {
                                 "title": "veiligverkeer.be",
-                                "url": "http:\\veiligverkeer.be"
+                                "url": "http://veiligverkeer.be"
                             }
                         ]
                     },
@@ -1188,7 +1188,7 @@
                         "links": [
                             {
                                 "title": "tragewegen.be",
-                                "url": "http:\\tragewegen.be"
+                                "url": "http://tragewegen.be"
                             }
                         ]
                     }
@@ -1207,7 +1207,7 @@
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "De wet maakt een onderscheid tussen cannabis en andere illegale drugs, maar het zijn <b>allemaal verboden producten</b>. Bezit, aankoop, verkoop en uitdelen zijn strafbaar. Als leden betrapt worden op het gebruik van illegale middelen, kan de leiding strafrechtelijk aansprakelijk gesteld worden."
+                                    "item": "De wet maakt een onderscheid tussen cannabis en andere illegale drugs, maar het zijn **allemaal verboden producten**. Bezit, aankoop, verkoop en uitdelen zijn strafbaar. Als leden betrapt worden op het gebruik van illegale middelen, kan de leiding strafrechtelijk aansprakelijk gesteld worden."
                                 }
                             ]
                         },
@@ -1246,11 +1246,11 @@
                             "type": "wet",
                             "list": [
                                 {
-                                    "item": "<b>Het is verboden om te roken in scouts- en gidsenlokalen</b>, ook op plaatsen waar enkel leiding komt. Dat geldt voor alle rookwaren: sigaretten, sigaren, e-sigaretten en waterpijpen.",
+                                    "item": "**Het is verboden om te roken in scouts- en gidsenlokalen**, ook op plaatsen waar enkel leiding komt. Dat geldt voor alle rookwaren: sigaretten, sigaren, e-sigaretten en waterpijpen.",
                                     "why": "Scoutslokalen zijn namelijk openbare plaatsen"
                                 },
                                 {
-                                    "item": "Je bent verplicht om <b>aan elke ingang van het lokaal een rookverbodsteken te hangen.</b> En in het lokaal mag niets wijzen op de mogelijkheid tot roken. Propere asbakken in het lokaal bijvoorbeeld zijn verboden en strafbaar."
+                                    "item": "Je bent verplicht om **aan elke ingang van het lokaal een rookverbodsteken te hangen.** En in het lokaal mag niets wijzen op de mogelijkheid tot roken. Propere asbakken in het lokaal bijvoorbeeld zijn verboden en strafbaar."
                                 }
                             ]
                         },
@@ -1340,10 +1340,10 @@
                                     "item": "Openbare dronkenschap is strafbaar."
                                 },
                                 {
-                                    "item": "<b>Het is verboden om alcohol te verkopen, te schenken of aan te bieden aan iedereen die jonger is dan zestien jaar.</b> Met alcohol bedoelt men alle alcoholhoudende dranken van meer dan 0.5% vol. zoals bier en wijn."
+                                    "item": "**Het is verboden om alcohol te verkopen, te schenken of aan te bieden aan iedereen die jonger is dan zestien jaar.** Met alcohol bedoelt men alle alcoholhoudende dranken van meer dan 0.5% vol. zoals bier en wijn."
                                 },
                                 {
-                                    "item": "<b>Sterke drank mag je niet verkopen, schenken of aanbieden aan -18-jarigen.</b> Dat geldt ook voor alcopops zoals breezers of cocktails met een beetje sterke drank in."
+                                    "item": "**Sterke drank mag je niet verkopen, schenken of aanbieden aan -18-jarigen.** Dat geldt ook voor alcopops zoals breezers of cocktails met een beetje sterke drank in."
                                 },
                                 {
                                     "item": "De wet verbiedt ook het opdienen van alcoholische dranken aan iemand die zichtbaar dronken is, iemand opzettelijk tot dronkenschap brengen, of uitdagingen tot drinken voorstellen of aanvaarden."
@@ -1519,10 +1519,10 @@
                                     "item": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld."
                                 },
                                 {
-                                    "item": "<b>Vanaf 16 jaar is seksueel contact wettelijk toegestaan.</b> Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”."
+                                    "item": "**Vanaf 16 jaar is seksueel contact wettelijk toegestaan.** Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”."
                                 },
                                 {
-                                    "item": "<b>Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen.</b> Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
+                                    "item": "**Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen.** Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
                                 }
                             ]
                         },
@@ -1587,22 +1587,22 @@
                             "description": "Twijfel je of een bepaalde situatie gepast is? Deze zes criteria helpen je een inschatting te maken. Alle criteria zijn oké? Experimenteer gerust verder. Als dat niet het geval is, grijp je als leiding in.",
                             "list": [
                                 {
-                                    "item": "<b>Toestemming:</b> iedereen is akkoord en voelt zich prettig."
+                                    "item": "**Toestemming:** iedereen is akkoord en voelt zich prettig."
                                 },
                                 {
-                                    "item": "<b>Vrijwilligheid:</b> geen vorm van druk."
+                                    "item": "**Vrijwilligheid:** geen vorm van druk."
                                 },
                                 {
-                                    "item": "<b>Gelijkwaardigheid:</b> er is evenwicht op vlak van leeftijd en macht."
+                                    "item": "**Gelijkwaardigheid:** er is evenwicht op vlak van leeftijd en macht."
                                 },
                                 {
-                                    "item": "<b>Ontwikkeling:</b> het gedrag past bij de leeftijd."
+                                    "item": "**Ontwikkeling:** het gedrag past bij de leeftijd."
                                 },
                                 {
-                                    "item": "<b>Context:</b> het gedrag past bij de omstandigheden."
+                                    "item": "**Context:** het gedrag past bij de omstandigheden."
                                 },
                                 {
-                                    "item": "<b>Zelfrespect:</b> de situatie berokkent geen fysieke of emotionele schade."
+                                    "item": "**Zelfrespect:** de situatie berokkent geen fysieke of emotionele schade."
                                 }
                             ]
                         },

@@ -25,6 +25,9 @@ class CrisisState extends State<Crisis> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(title: const Text('CRISIS- EN NOODSITUATIES')),
-        body: Markdown(data: _body, styleSheet: markdownStyle(context)));
+        body: Markdown(
+            data: _body,
+            styleSheet: markdownStyle(context),
+            onTapLink: linkHandler(context)));
   }
 }

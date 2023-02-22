@@ -37,7 +37,7 @@ class VragenState extends State<Vragen> {
     return Scaffold(
         appBar: AppBar(title: const Text('VRAAG EN ANTWOORD')),
         body: ListView.builder(
-            padding: const EdgeInsets.all(25),
+            padding: const EdgeInsets.all(20),
             itemCount: _chapters.length,
             itemBuilder: (context, index) {
               return Section(
