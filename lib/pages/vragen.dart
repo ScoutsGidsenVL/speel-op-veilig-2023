@@ -1,8 +1,8 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:provider/provider.dart';
 import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:speel_op_veilig/model/dynamic_data.dart';
 import 'package:speel_op_veilig/util.dart';
 import 'package:speel_op_veilig/widgets/custom_icon.dart';
 import 'package:speel_op_veilig/widgets/faq.dart';
@@ -17,24 +17,7 @@ class Vragen extends StatefulWidget {
 }
 
 class VragenState extends State<Vragen> {
-  List<Questions> _chapters = [];
   final List<String> _filter = [];
-
-  @override
-  initState() {
-    super.initState();
-    rootBundle.loadString('assets/data.json').then((source) async {
-      final data = await json.decode(source);
-      setState(() {
-        _chapters = Chapters.fromJson(data)
-            .chapters
-            .expand((c) => c.subchapters
-                .where((s) => s.questions != null)
-                .map((s) => s.questions!))
-            .toList();
-      });
-    });
-  }
 
   setFilter(String key, bool enabled) {
     setState(() {
@@ -52,6 +35,13 @@ class VragenState extends State<Vragen> {
 
   @override
   Widget build(BuildContext context) {
+    var chapters = context.watch<DynamicData>().chapters ?? [];
+    var questions = chapters
+        .expand((c) => c.subchapters
+            .where((s) => s.questions != null)
+            .map((s) => s.questions!))
+        .toList();
+
     return Scaffold(
         appBar: AppBar(title: const Text('VRAAG EN ANTWOORD')),
         body: ListView(padding: const EdgeInsets.all(20), children: [
@@ -77,7 +67,7 @@ class VragenState extends State<Vragen> {
                                 setFilter(g.key, enabled ?? false)))
                         .toList(),
                   ))),
-          ..._chapters
+          ...questions
               .where((c) =>
                   c.content?.any((e) => e.answers.any(filterAnswer)) ?? false)
               .map((c) => Section(
