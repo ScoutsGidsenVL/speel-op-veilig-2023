@@ -59,7 +59,7 @@ Questions _$QuestionsFromJson(Map<String, dynamic> json) => Questions(
       (json['content'] as List<dynamic>?)
           ?.map((e) => Question.fromJson(e as Map<String, dynamic>))
           .toList(),
-    );
+    )..url = json['url'] as String?;
 
 Question _$QuestionFromJson(Map<String, dynamic> json) => Question(
       json['question'] as String,
@@ -83,13 +83,4 @@ MoreInfo _$MoreInfoFromJson(Map<String, dynamic> json) => MoreInfo(
 
 Info _$InfoFromJson(Map<String, dynamic> json) => Info(
       json['title'] as String,
-      (json['links'] as List<dynamic>?)
-          ?.map((e) => Link.fromJson(e as Map<String, dynamic>))
-          .toList(),
-    );
-
-Link _$LinkFromJson(Map<String, dynamic> json) => Link(
-      json['title'] as String?,
-      json['url'] as String?,
-      json['description'] as String?,
     );

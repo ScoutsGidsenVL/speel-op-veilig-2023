@@ -4,7 +4,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 MarkdownStyleSheet markdownStyle(BuildContext context) {
   return MarkdownStyleSheet(
-      p: const TextStyle(fontSize: 16),
+      p: const TextStyle(fontSize: 18),
       a: TextStyle(
           color: Theme.of(context).colorScheme.secondary,
           decoration: TextDecoration.underline),

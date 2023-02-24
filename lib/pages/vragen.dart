@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:speel_op_veilig/util.dart';
 import 'package:speel_op_veilig/widgets/custom_icon.dart';
 import 'package:speel_op_veilig/widgets/faq.dart';
 import 'package:speel_op_veilig/widgets/section.dart';
@@ -79,25 +81,35 @@ class VragenState extends State<Vragen> {
               .where((c) =>
                   c.content?.any((e) => e.answers.any(filterAnswer)) ?? false)
               .map((c) => Section(
-                    title: Row(children: [
-                      CustomIcon(type: c.icon, size: 20),
-                      Padding(
-                          padding: const EdgeInsets.only(left: 4),
-                          child: Text(c.title.toUpperCase(),
-                              style:
-                                  Theme.of(context).textTheme.headlineLarge)),
-                    ]),
-                    children: c.content
-                            ?.where((e) => e.answers.any((a) =>
-                                _filter.isEmpty || _filter.contains(a.group)))
-                            .map((e) => Faq(
-                                question: e.question,
-                                answers: Map.fromEntries(e.answers
-                                    .where(filterAnswer)
-                                    .map((a) => MapEntry(a.group, a.answer)))))
-                            .toList() ??
-                        [],
-                  ))
+                      title: Row(children: [
+                        CustomIcon(type: c.icon, size: 20),
+                        Padding(
+                            padding: const EdgeInsets.only(left: 4),
+                            child: Text(c.title.toUpperCase(),
+                                style:
+                                    Theme.of(context).textTheme.headlineLarge)),
+                      ]),
+                      children: [
+                        ...c.content
+                                ?.where((e) => e.answers.any((a) =>
+                                    _filter.isEmpty ||
+                                    _filter.contains(a.group)))
+                                .map((e) => Faq(
+                                    question: e.question,
+                                    answers: Map.fromEntries(e.answers
+                                        .where(filterAnswer)
+                                        .map((a) =>
+                                            MapEntry(a.group, a.answer)))))
+                                .toList() ??
+                            [],
+                        c.url == null
+                            ? Container()
+                            : MarkdownBody(
+                                data:
+                                    '[Meer weten over ${c.title.toLowerCase()}...](/${c.url})',
+                                styleSheet: markdownStyle(context),
+                                onTapLink: linkHandler(context)),
+                      ])),
         ]));
   }
 }

@@ -1,10 +1,7 @@
-import 'dart:math';
-
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:speel_op_veilig/util.dart';
-import 'package:markdown/markdown.dart' as md;
 import 'package:speel_op_veilig/widgets/custom_icon.dart';
 
 class Wegwijs extends StatefulWidget {
@@ -52,7 +49,7 @@ class WegwijsState extends State<Wegwijs> {
                           ? Container()
                           : Row(
                               children: [
-                                CustomIcon(type: icon, color: true, size: 20),
+                                CustomIcon(type: icon, size: 20),
                                 Padding(
                                     padding: const EdgeInsets.only(left: 4),
                                     child: Text(p.value.substring(0, i),

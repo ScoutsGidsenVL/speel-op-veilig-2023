@@ -16,11 +16,9 @@ class CustomIcon extends StatelessWidget {
   };
 
   final String type;
-  final bool? color;
   final double? size;
 
-  const CustomIcon({Key? key, required this.type, this.color, this.size})
-      : super(key: key);
+  const CustomIcon({Key? key, required this.type, this.size}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -31,8 +29,7 @@ class CustomIcon extends StatelessWidget {
             style: TextStyle(
                 fontFamily: 'SpeelOpVeilig',
                 fontSize: size ?? 14,
-                color: ((color ?? false) ? data.color : null) ??
-                    Theme.of(context).colorScheme.primary));
+                color: data.color ?? Theme.of(context).colorScheme.primary));
   }
 }
 

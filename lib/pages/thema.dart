@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:speel_op_veilig/widgets/info_item.dart';
 import 'package:speel_op_veilig/widgets/rules.dart';
 
 class Thema extends StatefulWidget {
@@ -37,9 +38,8 @@ class ThemaState extends State<Thema> {
       appBar: AppBar(title: Text(_chapter?.title.toUpperCase() ?? '')),
       body: _chapter == null
           ? null
-          : ListView(
-              padding: const EdgeInsets.all(20),
-              children: _chapter!.subchapters
+          : ListView(padding: const EdgeInsets.all(20), children: [
+              ..._chapter!.subchapters
                   .where((s) => s.content?.isNotEmpty ?? false)
                   .map((s) => Padding(
                       padding: const EdgeInsets.only(bottom: 24),
@@ -65,7 +65,22 @@ class ThemaState extends State<Thema> {
                                 []
                           ])))
                   .toList(),
-            ),
+              ..._chapter!.moreInfo == null
+                  ? []
+                  : [
+                      Text(_chapter!.moreInfo!.title,
+                          style: Theme.of(context).textTheme.headlineLarge),
+                      InfoItem(
+                          type: widget.name,
+                          text:
+                              'Bekijk ook zeker onze vraag en antwoorden over ${_chapter!.title}! [Vragen en antwoorden](/vragen-en-antwoorden)'),
+                      ..._chapter!.moreInfo!.list
+                              ?.map((e) =>
+                                  InfoItem(type: widget.name, text: e.title))
+                              .toList() ??
+                          [],
+                    ],
+            ]),
     );
   }
 }

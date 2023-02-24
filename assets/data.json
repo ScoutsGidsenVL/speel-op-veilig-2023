@@ -128,6 +128,7 @@
                     "questions": {
                         "title": "Vuur",
                         "icon": "vuur",
+                        "url": "vuur",
                         "content": [
                             {
                                 "question": "Mogen leden vuur maken?",
@@ -189,21 +190,10 @@
                 "title": "Meer weten over vuur?",
                 "list": [
                     {
-                        "title": "Over vuur maken en blussen",
-                        "links": [
-                            {
-                                "description": "Het Buitenboek, te koop in Hopper Winkel"
-                            }
-                        ]
+                        "title": "Over vuur maken en blussen: Het Buitenboek, te koop in Hopper Winkel"
                     },
                     {
-                        "title": "Over kleurcodes brandgevaar en lokale politiereglementen",
-                        "links": [
-                            {
-                                "title": "www.natuurenbos.be/waarschuwingen",
-                                "url": "https://www.natuurenbos.be/waarschuwingen"
-                            }
-                        ]
+                        "title": "Over kleurcodes brandgevaar en lokale politiereglementen: [www.natuurenbos.be/waarschuwingen](https://www.natuurenbos.be/waarschuwingen)"
                     }
                 ]
             }
@@ -279,75 +269,25 @@
                 "title": "Meer weten over water?",
                 "list": [
                     {
-                        "title": "Erkende zwemwateren in Vlaanderen",
-                        "links": [
-                            {
-                                "title": "kwaliteitzwemwater.be",
-                                "url": "http://www.kwaliteitzwemwater.be"
-                            }
-                        ]
+                        "title": "Erkende zwemwateren in Vlaanderen: [kwaliteitzwemwater.be](http://www.kwaliteitzwemwater.be)"
                     },
                     {
-                        "title": "Aangewezen badzones in Wallonië",
-                        "links": [
-                            {
-                                "title": "environnement.wallonie.be/baignade",
-                                "url": "http://environnement.wallonie.be/baignade"
-                            }
-                        ]
+                        "title": "Aangewezen badzones in Wallonië: [environnement.wallonie.be/baignade](http://environnement.wallonie.be/baignade)"
                     },
                     {
-                        "title": "Voor vlotten gelden dezelfde regels als voor kano’s en kajaks",
-                        "links": [
-                            {
-                                "title": "visurius.be/kano ",
-                                "url": "http://www.visurius.be/kano"
-                            },
-                            {
-                                "title": "kayak.environnement.wallonie.be",
-                                "url": "http://kayak.environnement.wallonie.be",
-                                "description": "kajakzones"
-                            }
-                        ]
+                        "title": "Voor vlotten gelden dezelfde regels als voor kano’s en kajaks: [visurius.be/kano](http://www.visurius.be/kano), [kayak.environnement.wallonie.be](http://kayak.environnement.wallonie.be) kajakzones"
                     },
                     {
-                        "title": "Zeescouting",
-                        "links": [
-                            {
-                                "description": "Voor zeescouting gelden specifieke richtlijnen die je vindt in het handboek ‘Nautische vaardigheden’"
-                            }
-                        ]
+                        "title": "Zeescouting: Voor zeescouting gelden specifieke richtlijnen die je vindt in het handboek ‘Nautische vaardigheden’"
                     },
                     {
-                        "title": "Betekenis signalisatie",
-                        "links": [
-                            {
-                                "title": "ikwv.be",
-                                "url": "http://www.ikwv.be"
-                            }
-                        ]
+                        "title": "Betekenis signalisatie: [ikwv.be](http://www.ikwv.be)"
                     },
                     {
-                        "title": " Zwemvesten uitlenen",
-                        "links": [
-                            {
-                                "title": "sport.vlaanderen",
-                                "url": "http://www.sport.vlaanderen",
-                                "description": "zoek op ‘uitleendiensten’"
-                            },
-                            {
-                                "description": "Via jeugddiensten "
-                            }
-                        ]
+                        "title": "Zwemvesten uitlenen: [sport.vlaanderen](http://www.sport.vlaanderen) zoek op ‘uitleendiensten’, Via jeugddiensten"
                     },
                     {
-                        "title": "Schaatsvijvers",
-                        "links": [
-                            {
-                                "title": "natuurenbos.be/schaatsen",
-                                "url": "http://www.natuurenbos.be/schaatsen"
-                            }
-                        ]
+                        "title": "Schaatsvijvers: [natuurenbos.be/schaatsen](http://www.natuurenbos.be/schaatsen)"
                     }
                 ]
             }
@@ -434,40 +374,16 @@
                 "title": "Meer weten over hoogte?",
                 "list": [
                     {
-                        "title": "Over bergsport",
-                        "links": [
-                            {
-                                "title": "klimenbergsportfederatie.be",
-                                "url": "http://www.klimenbergsportfederatie.be"
-                            }
-                        ]
+                        "title": "Over bergsport: [klimenbergsportfederatie.be](http://www.klimenbergsportfederatie.be)"
                     },
                     {
-                        "title": "Over speleologie",
-                        "links": [
-                            {
-                                "title": "www.speleovvs.be",
-                                "url": "http://www.speleovvs.be"
-                            }
-                        ]
+                        "title": "Over speleologie: [www.speleovvs.be](http://www.speleovvs.be)"
                     },
                     {
-                        "title": "Over kabelbanen",
-                        "links": [
-                            {
-                                "title": "technieken@scoutsengidsenvlaanderen.be",
-                                "url": "mailto:technieken@scoutsengidsenvlaanderen.be"
-                            }
-                        ]
+                        "title": "Over kabelbanen: [technieken@scoutsengidsenvlaanderen.be](mailto:technieken@scoutsengidsenvlaanderen.be)"
                     },
                     {
-                        "title": "Brochure Grote sjorconstructies",
-                        "links": [
-                            {
-                                "title": "www.scoutsengidsenvlaanderen.be/grote-sjorconstructies",
-                                "url": "http://www.scoutsengidsenvlaanderen.be/grote-sjorconstructies"
-                            }
-                        ]
+                        "title": "Brochure Grote sjorconstructies: [www.scoutsengidsenvlaanderen.be/grote-sjorconstructies](http://www.scoutsengidsenvlaanderen.be/grote-sjorconstructies)"
                     }
                 ]
             }
@@ -574,6 +490,7 @@
                     "questions": {
                         "title": "Materiaal",
                         "icon": "materiaal",
+                        "url": "materiaal",
                         "content": [
                             {
                                 "question": "Mogen leden houthakken en hout zagen?",
@@ -609,22 +526,10 @@
                 "title": "Meer weten over materiaal?",
                 "list": [
                     {
-                        "title": "Over speelterreinen en wetgeving",
-                        "links": [
-                            {
-                                "title": "scoutsengidsenvlaanderen.be",
-                                "url": "http://scoutsengidsenvlaanderen.be",
-                                "description": "zoek op ‘speeltoestellen’"
-                            }
-                        ]
+                        "title": "Over speelterreinen en wetgeving: [scoutsengidsenvlaanderen.be](http://scoutsengidsenvlaanderen.be) zoek op ‘speeltoestellen’"
                     },
                     {
-                        "title": "Over veilig gebruik en onderhoud van materiaal",
-                        "links": [
-                            {
-                                "description": "het Buitenboek, te koop in Hopper Winkel en www.scoutsengidsenvlaanderen.be/technieken-databank"
-                            }
-                        ]
+                        "title": "Over veilig gebruik en onderhoud van materiaal: het Buitenboek, te koop in Hopper Winkel en www.scoutsengidsenvlaanderen.be/technieken-databank"
                     }
                 ]
             }
@@ -840,6 +745,7 @@
                     "questions": {
                         "title": "Dropping",
                         "icon": "verkeer",
+                        "url": "verkeer",
                         "content": [
                             {
                                 "question": "Mogen leden zonder leiding overdag op tocht?",
@@ -901,6 +807,7 @@
                     "questions": {
                         "title": "Twee- en driedaagse",
                         "icon": "verkeer",
+                        "url": "verkeer",
                         "content": [
                             {
                                 "question": "Mogen leden zonder leiding op twee- of driedaagse?",
@@ -1088,6 +995,7 @@
                     "questions": {
                         "title": "Fietsers",
                         "icon": "verkeer",
+                        "url": "verkeer",
                         "type": "regel",
                         "content": [
                             {
@@ -1166,31 +1074,13 @@
                 "title": "Meer weten over verkeer?",
                 "list": [
                     {
-                        "title": "Verkeersinformatie specifiek voor jeugdbewegingen vind je op ",
-                        "links": [
-                            {
-                                "title": "veiligopstap.be",
-                                "url": "https://veiligopstap.be"
-                            }
-                        ]
+                        "title": "Verkeersinformatie specifiek voor jeugdbewegingen vind je op: [veiligopstap.be](https://veiligopstap.be)"
                     },
                     {
-                        "title": "Informatie over je veilig bewegen in het verkeer in Vlaanderen vind je bij de Vlaamse Stichting Verkeerskunde",
-                        "links": [
-                            {
-                                "title": "veiligverkeer.be",
-                                "url": "http://veiligverkeer.be"
-                            }
-                        ]
+                        "title": "Informatie over je veilig bewegen in het verkeer in Vlaanderen vind je bij de Vlaamse Stichting Verkeerskunde: [veiligverkeer.be](http://veiligverkeer.be)"
                     },
                     {
-                        "title": "Rustige wandelwegen vind je op",
-                        "links": [
-                            {
-                                "title": "tragewegen.be",
-                                "url": "http://tragewegen.be"
-                            }
-                        ]
+                        "title": "Rustige wandelwegen vind je op: [tragewegen.be](http://tragewegen.be)"
                     }
                 ]
             }
@@ -1296,6 +1186,7 @@
                     "questions": {
                         "title": "Tabak",
                         "icon": "drugs-tabak-en-alcohol",
+                        "url": "drugs-tabak-en-alcohol",
                         "content": [
                             {
                                 "question": "Mogen leden en leiding een sigaret roken?",
@@ -1410,6 +1301,7 @@
                     "questions": {
                         "title": "Alcohol",
                         "icon": "drugs-tabak-en-alcohol",
+                        "url": "drugs-tabak-en-alcohol",
                         "content": [
                             {
                                 "question": "Mogen leden en leiding alcohol drinken?",
@@ -1449,57 +1341,19 @@
                 "title": "Meer weten over tabak, alcohol en drugs?",
                 "list": [
                     {
-                        "title": "Over fuiven",
-                        "links": [
-                            {
-                                "title": "qualitynights.be ",
-                                "url": "http://www.qualitynights.be "
-                            }
-                        ]
+                        "title": "Over fuiven: [qualitynights.be](http://www.qualitynights.be)"
                     },
                     {
-                        "title": "Over drugs",
-                        "links": [
-                            {
-                                "title": "druglijn.be",
-                                "url": "htpp://www.druglijn.be"
-                            },
-                            {
-                                "title": "078 15 10 20 ",
-                                "url": "https://bel 078 15 10 20"
-                            }
-                        ]
+                        "title": "Over drugs: [druglijn.be](htpp://www.druglijn.be), [078 15 10 20](tel:078151020)"
                     },
                     {
-                        "title": "Over drugs in de jeugdbeweging",
-                        "links": [
-                            {
-                                "title": "drugsinbeweging.be ",
-                                "url": "https://www.drugsinbeweging.be/"
-                            }
-                        ]
+                        "title": "Over drugs in de jeugdbeweging: [drugsinbeweging.be](https://www.drugsinbeweging.be/)"
                     },
                     {
-                        "title": "Vereniging voor alcohol- en andere drugproblemen (VAD)",
-                        "links": [
-                            {
-                                "title": "vad@vad.be",
-                                "url": "mailto:vad@vad.be"
-                            },
-                            {
-                                "title": "vad.be",
-                                "url": "http://www.vad.be"
-                            }
-                        ]
+                        "title": "Vereniging voor alcohol- en andere drugproblemen (VAD): [vad@vad.be](mailto:vad@vad.be), [vad.be](http://www.vad.be)"
                     },
                     {
-                        "title": "Over zelf een alcoholbeleid opstellen",
-                        "links": [
-                            {
-                                "title": "scoutsengidsenvlaanderen.be/bar",
-                                "url": "http://scoutsengidsenvlaanderen.be/bar"
-                            }
-                        ]
+                        "title": "Over zelf een alcoholbeleid opstellen: [scoutsengidsenvlaanderen.be/bar](http://scoutsengidsenvlaanderen.be/bar)"
                     }
                 ]
             }
@@ -1638,6 +1492,7 @@
                     "questions": {
                         "title": "Welzijn",
                         "icon": "welzijn",
+                        "url": "welzijn",
                         "content": [
                             {
                                 "question": "Wat is de ideale verhouding tussen het aantal leden en het aantal leiding?",
@@ -1889,71 +1744,19 @@
                 "title": "Meer weten over welzijn?",
                 "list": [
                     {
-                        "title": "Over andere risico’s",
-                        "links": [
-                            {
-                                "title": "info@scoutsengidsenvlaanderen.be",
-                                "url": "mailto:info@scoutsengidsenvlaanderen.be"
-                            },
-                            {
-                                "title": "scoutsengidsenvlaanderen.be",
-                                "url": "http://scoutsengidsenvlaanderen.be"
-                            },
-                            {
-                                "title": "in de basiswerken van Scouts en Gidsen Vlaanderen: ",
-                                "description": "Takboekjes, Buitenboek, Kampvisum en in Eerste Hulp voor jeugdleiders. Allemaal te verkrijgen in Hopper Winkel."
-                            }
-                        ]
+                        "title": "Over andere risico’s: [info@scoutsengidsenvlaanderen.be](mailto:info@scoutsengidsenvlaanderen.be), [scoutsengidsenvlaanderen.be](http://scoutsengidsenvlaanderen.be), in de basiswerken van Scouts en Gidsen Vlaanderen: Takboekjes, Buitenboek, Kampvisum en in Eerste Hulp voor jeugdleiders. Allemaal te verkrijgen in Hopper Winkel."
                     },
                     {
-                        "title": "Over lichamelijkheid en seksualiteit",
-                        "links": [
-                            {
-                                "title": "seksuelevorming.be ",
-                                "url": "htpp://www.seksuelevorming.be",
-                                "description": "zoek op (N)iets mis mee"
-                            }
-                        ]
+                        "title": "Over lichamelijkheid en seksualiteit: [seksuelevorming.be](htpp://www.seksuelevorming.be) zoek op (N)iets mis mee"
                     },
                     {
-                        "title": "Over welzijn",
-                        "links": [
-                            {
-                                "title": "watwat.be",
-                                "url": "https://www.watwat.be/"
-                            },
-                            {
-                                "title": "awel.be ",
-                                "url": "https://www.awel.be"
-                            },
-                            {
-                                "title": "bel 102",
-                                "url": "https://bel 102"
-                            }
-                        ]
+                        "title": "Over welzijn: [watwat.be](https://www.watwat.be/), [awel.be](https://www.awel.be), [bel 102](tel:102)"
                     },
                     {
-                        "title": "Bij vermoeden van misbruik of mishandeling",
-                        "links": [
-                            {
-                                "title": "kindermishandeling.be",
-                                "url": "http://www.kindermishandeling.be"
-                            }
-                        ]
+                        "title": "Bij vermoeden van misbruik of mishandeling: [kindermishandeling.be](http://www.kindermishandeling.be)"
                     },
                     {
-                        "title": "Over voedselveiligheid",
-                        "links": [
-                            {
-                                "title": "kokenopkamp.be/voedselveiligheid",
-                                "url": "http://www.kokenopkamp.be/voedselveiligheid"
-                            },
-                            {
-                                "title": "scoutsengidsenvlaanderen.be",
-                                "url": "http://scoutsengidsenvlaanderen.be",
-                                "description": "brochure Bederf je kamp niet, zoek op ‘bederf’"
-                            }
-                        ]
+                        "title": "Over voedselveiligheid: [kokenopkamp.be/voedselveiligheid](http://www.kokenopkamp.be/voedselveiligheid), [scoutsengidsenvlaanderen.be](http://scoutsengidsenvlaanderen.be) brochure Bederf je kamp niet, zoek op ‘bederf’"
                     }
                 ]
             }

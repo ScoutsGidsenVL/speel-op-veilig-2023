@@ -21,11 +21,13 @@ class RuleItem extends StatelessWidget {
               ? Container()
               : Padding(
                   padding: const EdgeInsets.only(top: 4, right: 2),
-                  child: CustomIcon(type: type!, color: true)),
+                  child: CustomIcon(type: type!)),
           Flexible(
               fit: FlexFit.tight,
               child: MarkdownBody(
-                  data: text ?? '', onTapLink: linkHandler(context))),
+                  data: text ?? '',
+                  styleSheet: markdownStyle(context),
+                  onTapLink: linkHandler(context))),
           why == null || why!.isEmpty
               ? Container()
               : IconButton(

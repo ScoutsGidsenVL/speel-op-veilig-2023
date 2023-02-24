@@ -69,6 +69,7 @@ class Questions {
 
   String title;
   String icon;
+  String? url;
   String? type;
   List<Question>? content;
 
@@ -111,21 +112,9 @@ class MoreInfo {
 
 @JsonSerializable(createToJson: false)
 class Info {
-  Info(this.title, this.links);
+  Info(this.title);
 
   String title;
-  List<Link>? links;
 
   factory Info.fromJson(Map<String, dynamic> json) => _$InfoFromJson(json);
-}
-
-@JsonSerializable(createToJson: false)
-class Link {
-  Link(this.title, this.url, this.description);
-
-  String? title;
-  String? url;
-  String? description;
-
-  factory Link.fromJson(Map<String, dynamic> json) => _$LinkFromJson(json);
 }
