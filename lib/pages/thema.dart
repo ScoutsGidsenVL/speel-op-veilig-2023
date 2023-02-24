@@ -1,45 +1,24 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:provider/provider.dart';
+import 'package:speel_op_veilig/model/dynamic_data.dart';
 import 'package:speel_op_veilig/widgets/info_item.dart';
 import 'package:speel_op_veilig/widgets/rules.dart';
 
-class Thema extends StatefulWidget {
+class Thema extends StatelessWidget {
   const Thema({Key? key, required this.name}) : super(key: key);
 
   final String name;
 
   @override
-  ThemaState createState() => ThemaState();
-}
-
-class ThemaState extends State<Thema> {
-  Chapter? _chapter;
-
-  @override
-  initState() {
-    super.initState();
-    Future.delayed(const Duration(milliseconds: 200))
-        .then((_) => rootBundle.loadString('assets/data.json'))
-        .then((source) async {
-      final data = await json.decode(source);
-      setState(() {
-        _chapter = Chapters.fromJson(data)
-            .chapters
-            .firstWhere((c) => c.url == widget.name);
-      });
-    });
-  }
-
-  @override
   Widget build(BuildContext context) {
+    var chapter =
+        context.watch<DynamicData>().chapters?.firstWhere((c) => c.url == name);
     return Scaffold(
-      appBar: AppBar(title: Text(_chapter?.title.toUpperCase() ?? '')),
-      body: _chapter == null
+      appBar: AppBar(title: Text(chapter?.title.toUpperCase() ?? '')),
+      body: chapter == null
           ? null
           : ListView(padding: const EdgeInsets.all(20), children: [
-              ..._chapter!.subchapters
+              ...chapter.subchapters
                   .where((s) => s.content?.isNotEmpty ?? false)
                   .map((s) => Padding(
                       padding: const EdgeInsets.only(bottom: 24),
@@ -65,18 +44,17 @@ class ThemaState extends State<Thema> {
                                 []
                           ])))
                   .toList(),
-              ..._chapter!.moreInfo == null
+              ...chapter.moreInfo == null
                   ? []
                   : [
-                      Text(_chapter!.moreInfo!.title,
+                      Text(chapter.moreInfo!.title,
                           style: Theme.of(context).textTheme.headlineLarge),
                       InfoItem(
-                          type: widget.name,
+                          type: name,
                           text:
-                              'Bekijk ook zeker onze vraag en antwoorden over ${_chapter!.title}! [Vragen en antwoorden](/vragen-en-antwoorden)'),
-                      ..._chapter!.moreInfo!.list
-                              ?.map((e) =>
-                                  InfoItem(type: widget.name, text: e.title))
+                              'Bekijk ook zeker onze vraag en antwoorden over ${chapter.title}! [Vragen en antwoorden](/vragen-en-antwoorden)'),
+                      ...chapter.moreInfo!.list
+                              ?.map((e) => InfoItem(type: name, text: e.title))
                               .toList() ??
                           [],
                     ],

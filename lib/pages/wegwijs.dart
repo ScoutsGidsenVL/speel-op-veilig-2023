@@ -1,39 +1,29 @@
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
+import 'package:speel_op_veilig/model/dynamic_data.dart';
 import 'package:speel_op_veilig/util.dart';
 import 'package:speel_op_veilig/widgets/custom_icon.dart';
 
-class Wegwijs extends StatefulWidget {
-  const Wegwijs({Key? key}) : super(key: key);
+class Wegwijs extends StatelessWidget {
+  const Wegwijs({super.key, required this.path, required this.title});
 
-  @override
-  WegwijsState createState() => WegwijsState();
-}
+  final String path;
+  final String title;
 
-class WegwijsState extends State<Wegwijs> {
-  final _headers = {
+  final _headers = const {
     "Wet": 'wet',
     "Regels": 'regel',
     "Richtlijnen": 'richtlijn',
     "Suggesties": 'suggestie',
   };
 
-  String _body = '';
-
-  @override
-  initState() {
-    super.initState();
-    rootBundle
-        .loadString('assets/content/wegwijs.md')
-        .then((source) => setState(() => _body = source));
-  }
-
   @override
   Widget build(BuildContext context) {
-    var parts = _body.replaceAll("\r\n", "\n").split("\n\n## ");
+    var body = context.watch<DynamicData>().text[path] ?? '';
+    var parts = body.replaceAll("\r\n", "\n").split("\n\n## ");
     return Scaffold(
-        appBar: AppBar(title: const Text('WEGWIJS IN DEZE APP')),
+        appBar: AppBar(title: Text(title.toUpperCase())),
         body: ListView(
           padding: const EdgeInsets.all(20),
           children: parts.asMap().entries.map((p) {

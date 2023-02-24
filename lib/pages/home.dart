@@ -1,19 +1,10 @@
-import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:provider/provider.dart';
+import 'package:speel_op_veilig/model/dynamic_data.dart';
 import 'package:speel_op_veilig/widgets/custom_icon.dart';
 import 'package:speel_op_veilig/widgets/section.dart';
 
-class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
-
-  @override
-  HomeState createState() => HomeState();
-}
-
-class HomeState extends State<Home> {
-  List<Chapter> _chapters = [];
+class Home extends StatelessWidget {
   final _infoPages = {
     '/veilige-activiteit': 'Veilige activiteit',
     '/verzekeringen': 'Verzekeringen en aansprakelijkheid',
@@ -22,16 +13,7 @@ class HomeState extends State<Home> {
     '/wegwijs': 'Wegwijs',
   }.entries.toList();
 
-  @override
-  initState() {
-    super.initState();
-    rootBundle.loadString('assets/data.json').then((source) async {
-      final data = await json.decode(source);
-      setState(() {
-        _chapters = Chapters.fromJson(data).chapters;
-      });
-    });
-  }
+  Home({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -47,7 +29,7 @@ class HomeState extends State<Home> {
           Section(
             title: Text('Thema\'s',
                 style: Theme.of(context).textTheme.headlineLarge),
-            children: _chapters
+            children: (context.watch<DynamicData>().chapters ?? [])
                 .map((c) => TextButton(
                       onPressed: () =>
                           Navigator.pushNamed(context, '/${c.url}'),
