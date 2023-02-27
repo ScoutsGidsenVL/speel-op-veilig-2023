@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:transparent_image/transparent_image.dart';
 
 class Intro extends StatelessWidget {
   static const _introText = '''
@@ -25,11 +26,18 @@ Kortom: speel op veilig.''';
     return Scaffold(
       body: Stack(children: [
         Container(
-            decoration: const BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage('assets/images/intro.jpg'),
-                    fit: BoxFit.cover))),
-        Container(color: const Color.fromRGBO(0, 0, 0, 0.2)),
+            color: MediaQuery.of(context).platformBrightness == Brightness.light
+                ? const Color(0xFFFAFAFA)
+                : const Color(0xFF272727)),
+        FadeInImage(
+          placeholderFit: BoxFit.cover,
+          placeholder: MemoryImage(kTransparentImage),
+          image: const AssetImage('assets/images/intro.jpg'),
+          fit: BoxFit.cover,
+          height: double.infinity,
+          width: double.infinity,
+          alignment: Alignment.center,
+        ),
         ListView(
             padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
             children: [
