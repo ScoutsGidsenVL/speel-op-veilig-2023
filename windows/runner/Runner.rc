@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "speel_op_veilig" "\0"
+            VALUE "CompanyName", "be.scoutsengidsenvlaanderen" "\0"
+            VALUE "FileDescription", "Speel op Veilig" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "speel_op_veilig" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 Scouts en Gidsen Vlaanderen vzw. All rights reserved." "\0"
             VALUE "OriginalFilename", "speel_op_veilig.exe" "\0"
             VALUE "ProductName", "speel_op_veilig" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.speel_op_veilig">
+    package="be.scoutsengidsenvlaanderen.speel_op_veilig">
    <application
-        android:label="speel_op_veilig"
+        android:label="Speel op Veilig"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
