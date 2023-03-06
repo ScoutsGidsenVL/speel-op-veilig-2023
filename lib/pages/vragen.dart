@@ -57,7 +57,7 @@ class VragenState extends State<Vragen> {
                     children: Faq.groups.entries
                         .map((g) => CheckboxListTile(
                             title: Text(g.value,
-                                style: Theme.of(context).textTheme.bodySmall),
+                                style: Theme.of(context).textTheme.bodyMedium),
                             dense: true,
                             contentPadding: const EdgeInsets.all(0),
                             visualDensity: const VisualDensity(vertical: -2),

@@ -21,25 +21,32 @@ class Faq extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Map<String, List<String>> groupedAnswers = {};
+    for (var answer in answers.entries) {
+      var list = groupedAnswers[answer.value] ?? [];
+      list.add(answer.key);
+      groupedAnswers[answer.value] = list;
+    }
+
     return Padding(
         padding: const EdgeInsets.symmetric(vertical: 10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(question, style: Theme.of(context).textTheme.headlineMedium),
-            ...answers.entries
+            ...groupedAnswers.entries
                 .map((answer) => Padding(
                     padding: const EdgeInsets.only(top: 12),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('${groups[answer.key]}:',
+                        ...answer.value.map((a) => Text('${groups[a]}:',
+                            style: Theme.of(context).textTheme.bodyLarge)),
+                        Text(answer.key,
                             style: Theme.of(context)
                                 .textTheme
                                 .bodyMedium
-                                ?.copyWith(fontWeight: FontWeight.bold)),
-                        Text(answer.value,
-                            style: Theme.of(context).textTheme.bodyMedium)
+                                ?.copyWith(fontStyle: FontStyle.italic))
                       ],
                     )))
                 .toList()

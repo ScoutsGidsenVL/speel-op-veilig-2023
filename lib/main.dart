@@ -41,8 +41,8 @@ class MyAppState extends State<MyApp> {
                   fontFamily: "DCCAsh", fontSize: 24, color: secondary),
               headlineSmall: TextStyle(
                   fontSize: 18, color: primary, fontWeight: FontWeight.bold),
+              bodyLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               bodyMedium: TextStyle(fontSize: 18),
-              bodySmall: TextStyle(fontSize: 16),
             )),
         initialRoute: '/intro',
         routes: <String, WidgetBuilder>{
