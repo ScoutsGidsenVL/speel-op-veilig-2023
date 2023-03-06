@@ -27,7 +27,7 @@ class DynamicData extends ChangeNotifier {
   }
 
   Future refreshChapters() async {
-    var source = await fetchAsset('content/chapters.json');
+    var source = await fetchAsset('content/themas.json');
     var data = await json.decode(source);
     chapters = Chapters.fromJson(data).chapters;
   }
