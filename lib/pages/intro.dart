@@ -41,12 +41,14 @@ Kortom: speel op veilig.''';
         ListView(
             padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
             children: [
-              const Text(_introText,
-                  style: TextStyle(
-                      fontFamily: 'DCCAsh',
-                      color: Colors.white,
-                      fontSize: 26,
-                      letterSpacing: 1)),
+              const Padding(
+                  padding: EdgeInsets.only(bottom: 30),
+                  child: Text(_introText,
+                      style: TextStyle(
+                          fontFamily: 'DCCAsh',
+                          color: Colors.white,
+                          fontSize: 26,
+                          letterSpacing: 1))),
               FilledButton(
                   onPressed: () {
                     Navigator.pushNamedAndRemoveUntil(
