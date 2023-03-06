@@ -77,11 +77,11 @@
                                     "why": "Heet frituurvet is snel ontvlambaar."
                                 },
                                 {
-                                    "item": "Hou fleece en andere synthetische kledij weg van het vuur",
+                                    "item": "Hou fleece en andere synthetische kledij weg van het vuur.",
                                     "why": "Synthetische stoffen smelten en kunnen ernstige brandwonden veroorzaken."
                                 },
                                 {
-                                    "item": "Laat brandend of uitdovend vuur of vuurresten nooit onbewaakt achter",
+                                    "item": "Laat brandend of uitdovend vuur of vuurresten nooit onbewaakt achter.",
                                     "why": "Het vuur kan opnieuw opflakkeren."
                                 }
                             ]
@@ -119,8 +119,8 @@
                                     "why": "Binnenin een tak kan nog vuur smeulen dat je niet kan zien, enkel voelen."
                                 },
                                 {
-                                    "item": "Vermijd bij bliksem vlaktes en alles dat boven de omgeving uitsteekt (torens, masten, bomen, hoogtes, tenten). Ga zo snel mogelijk uit het water. Schuil in gebouwen of auto’s. Niet mogelijk? Ga gehurkt zitten en maak je zo klein mogelijk. ",
-                                    "why": "Bliksem zoekt het hoogste punt. Ook op water ben je als zwemmer het hoogste punt en loop je gevaar. Boten zijn meestal voorzien van een bliksemafleider"
+                                    "item": "Vermijd bij bliksem vlaktes en alles dat boven de omgeving uitsteekt (torens, masten, bomen, hoogtes, tenten). Ga zo snel mogelijk uit het water. Schuil in gebouwen of auto’s. Niet mogelijk? Ga gehurkt zitten en maak je zo klein mogelijk.",
+                                    "why": "Bliksem zoekt het hoogste punt. Ook op water ben je als zwemmer het hoogste punt en loop je gevaar. Boten zijn meestal voorzien van een bliksemafleider."
                                 }
                             ]
                         }
@@ -136,7 +136,7 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
@@ -152,7 +152,7 @@
                                     },
                                     {
                                         "group": "jins-loodsen",
-                                        "answer": "Ja"
+                                        "answer": "Ja."
                                     }
                                 ]
                             },
@@ -174,11 +174,11 @@
                                     },
                                     {
                                         "group": "gidsen-verkenners",
-                                        "answer": "Ja"
+                                        "answer": "Ja."
                                     },
                                     {
                                         "group": "jins-loodsen",
-                                        "answer": "Ja"
+                                        "answer": "Ja."
                                     }
                                 ]
                             }
@@ -498,11 +498,11 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -510,11 +510,11 @@
                                     },
                                     {
                                         "group": "gidsen-verkenners",
-                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid."
                                     },
                                     {
                                         "group": "jins-loodsen",
-                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid."
                                     }
                                 ]
                             }
@@ -591,7 +591,7 @@
                                         },
                                         {
                                             "item": "Groepen vanaf vijf personen moeten verplicht een rood licht rechts vooraan en wit licht rechts achteraan dragen als je minder dan 200 meter ver kan zien.",
-                                            "why": "Zo geef je je wandelrichting aan"
+                                            "why": "Zo geef je je wandelrichting aan."
                                         },
                                         {
                                             "item": "Is de groep lang? Dan is het verplicht om op de flanken bijkomende witte lichten te voorzien die in alle richtingen zichtbaar zijn."
@@ -700,7 +700,7 @@
                                 },
                                 {
                                     "item": "Tijdens weekendnachten zijn avond- en nachtdroppingen langs verharde openbare wegen verboden.",
-                                    "why": "De kans op ongevallen tijdens weekendnachten is groter. "
+                                    "why": "De kans op ongevallen tijdens weekendnachten is groter."
                                 },
                                 {
                                     "item": "De deelnemers zijn minimum per twee en blijven samen."
@@ -753,11 +753,11 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -779,11 +779,11 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -950,7 +950,7 @@
                             "type": "richtlijn",
                             "list": [
                                 {
-                                    "item": "Met kabouters en (zee)welpen kan je een fietsactiviteit op het scoutsterrein doen. We raden af om met hen op de openbare weg te fietsen",
+                                    "item": "Met kabouters en (zee)welpen kan je een fietsactiviteit op het scoutsterrein doen. We raden af om met hen op de openbare weg te fietsen.",
                                     "why": "Pas vanaf 10 jaar kunnen kinderen reageren op risico’s, koers houden op de fiets, achterom kijken en richting aangeven zonder te slingeren. Vanaf twaalf jaar kunnen ze een ingewikkelde verkeerssituatie met meerdere auto’s beoordelen, en pas een jaar later kunnen ze langzaam fietsen zonder te slingeren. Het vermogen om je aandacht ergens bij te houden en informatie te verwerken, ontwikkelt zich nog verder tot de leeftijd van vijftien jaar."
                                 },
                                 {
@@ -1007,7 +1007,7 @@
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Wij raden het af"
+                                        "answer": "Wij raden het af."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -1137,7 +1137,7 @@
                             "list": [
                                 {
                                     "item": "**Het is verboden om te roken in scouts- en gidsenlokalen**, ook op plaatsen waar enkel leiding komt. Dat geldt voor alle rookwaren: sigaretten, sigaren, e-sigaretten en waterpijpen.",
-                                    "why": "Scoutslokalen zijn namelijk openbare plaatsen"
+                                    "why": "Scoutslokalen zijn namelijk openbare plaatsen."
                                 },
                                 {
                                     "item": "Je bent verplicht om **aan elke ingang van het lokaal een rookverbodsteken te hangen.** En in het lokaal mag niets wijzen op de mogelijkheid tot roken. Propere asbakken in het lokaal bijvoorbeeld zijn verboden en strafbaar."
@@ -1193,7 +1193,7 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
@@ -1309,7 +1309,7 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
@@ -1317,7 +1317,7 @@
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "gidsen-verkenners",
@@ -1409,7 +1409,7 @@
                                     "why": "Sommige ervaringen liggen heel dicht bij traumatische / schokkende gebeurtenissen die kinderen meegemaakt hebben."
                                 },
                                 {
-                                    "item": "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig"
+                                    "item": "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig."
                                 },
                                 {
                                     "item": "Wat het aantal dagen op kamp betreft, volg de richtlijn per tak."
@@ -1461,7 +1461,7 @@
                             ]
                         },
                         {
-                            "title": "Suggesties over hygiëne ",
+                            "title": "Suggesties over hygiëne",
                             "type": "suggestie",
                             "list": [
                                 {
@@ -1473,7 +1473,7 @@
                                 },
                                 {
                                     "item": "Bewaar bereide gerechten, zuivel, vlees en vis afgesloten en onder de 7°C. Leg het na aankoop zo snel mogelijk in de koelkast.",
-                                    "why": "Bacteriën en schimmels groeien tussen 7°C en 65°C"
+                                    "why": "Bacteriën en schimmels groeien tussen 7°C en 65°C."
                                 },
                                 {
                                     "item": "Bak vis en vlees, zeker kip en varkensvlees, door en door gaar."
