@@ -34,12 +34,12 @@ class Faq extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text('${groups[answer.key]}:',
-                            style: Theme.of(context).textTheme.bodySmall),
-                        Text(answer.value,
                             style: Theme.of(context)
                                 .textTheme
                                 .bodyMedium
-                                ?.copyWith(fontStyle: FontStyle.italic))
+                                ?.copyWith(fontWeight: FontWeight.bold)),
+                        Text(answer.value,
+                            style: Theme.of(context).textTheme.bodyMedium)
                       ],
                     )))
                 .toList()
