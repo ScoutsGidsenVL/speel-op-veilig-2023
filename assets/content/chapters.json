@@ -213,7 +213,7 @@
                                     "item": "**In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen.** Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden."
                                 },
                                 {
-                                    "item": "**In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen'**: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
+                                    "item": "**In Vlaanderen mag je met een zelfgebouwd vlot varen op de ‘onbevaarbare waterlopen’**: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
                                 },
                                 {
                                     "item": "**In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones.**"
@@ -664,11 +664,11 @@
                             "list": [
                                 {
                                     "item": "Pas de lengte van je tocht aan de leeftijd van je leden aan. Een goed gemiddelde tot veertien jaar is: het aantal kilometers van de tocht = de leeftijd van de leden.",
-                                    "why": "Op trage wegen rijdt weinig tot geen gemotoriseerd verkeer. Het is er bovendien leuker en mooier wandelen."
+                                    "why": "In een groep waar de vermoeidheid toeslaat, geraken trage en vermoeide stappers achterop."
                                 },
                                 {
                                     "item": "Stippel je reisweg op voorhand uit en kies zoveel mogelijk voor ‘trage wegen’.",
-                                    "why": "In een groep waar de vermoeidheid toeslaat, geraken trage en vermoeide stappers achterop."
+                                    "why": "Op trage wegen rijdt weinig tot geen gemotoriseerd verkeer. Het is er bovendien leuker en mooier wandelen."
                                 }
                             ]
                         }
@@ -1027,7 +1027,7 @@
                     }
                 },
                 {
-                    "title": "Auto's",
+                    "title": "Auto’s",
                     "content": [
                         {
                             "title": "Wet over auto’s",
