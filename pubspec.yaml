@@ -81,4 +81,5 @@ flutter_icons:
 # https://pub.dev/packages/flutter_native_splash
 flutter_native_splash:
   color: "#fafafa"
+  image: "assets/images/splash.png"
   color_dark: "#272727"
