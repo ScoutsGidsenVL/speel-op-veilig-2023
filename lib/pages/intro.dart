@@ -29,10 +29,8 @@ Kortom: speel op veilig.''';
             color: MediaQuery.of(context).platformBrightness == Brightness.light
                 ? const Color(0xFFFAFAFA)
                 : const Color(0xFF272727)),
-        FadeInImage(
-          placeholderFit: BoxFit.cover,
-          placeholder: MemoryImage(kTransparentImage),
-          image: const AssetImage('assets/images/intro.jpg'),
+        const Image(
+          image: AssetImage('assets/images/intro.jpg'),
           fit: BoxFit.cover,
           height: double.infinity,
           width: double.infinity,
