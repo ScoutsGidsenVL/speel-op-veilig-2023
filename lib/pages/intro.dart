@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:transparent_image/transparent_image.dart';
 
 class Intro extends StatelessWidget {
   static const _introText = '''

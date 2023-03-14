@@ -32,7 +32,6 @@ dependencies:
   expandable: ^5.0.1
   provider: ^6.0.5
   flutter_cache_manager: ^3.3.0
-  transparent_image: ^2.0.1
   flutter_native_splash: ^2.2.16
 
 dev_dependencies:
@@ -81,5 +80,5 @@ flutter_icons:
 # https://pub.dev/packages/flutter_native_splash
 flutter_native_splash:
   color: "#fafafa"
-  image: "assets/images/splash.png"
   color_dark: "#272727"
+  image: "assets/images/splash.png"
