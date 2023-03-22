@@ -15,19 +15,22 @@ class RuleItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.only(top: 8, bottom: 8),
+        padding: const EdgeInsets.only(bottom: 8),
         child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
           type == null
               ? Container()
               : Padding(
-                  padding: const EdgeInsets.only(top: 4, right: 2),
+                  padding: const EdgeInsets.only(top: 12, right: 2),
                   child: CustomIcon(type: type!)),
           Flexible(
-              fit: FlexFit.tight,
-              child: MarkdownBody(
-                  data: text ?? '',
-                  styleSheet: markdownStyle(context),
-                  onTapLink: linkHandler(context))),
+            fit: FlexFit.tight,
+            child: Padding(
+                padding: const EdgeInsets.only(top: 8),
+                child: MarkdownBody(
+                    data: text ?? '',
+                    styleSheet: markdownStyle(context),
+                    onTapLink: linkHandler(context))),
+          ),
           why == null || why!.isEmpty
               ? Container()
               : IconButton(
@@ -41,9 +44,14 @@ class RuleItem extends StatelessWidget {
                                 top: 10, right: 25, bottom: 25, left: 25),
                             children: [Text(why!)],
                           )),
-                  icon: const Icon(Icons.question_mark),
+                  icon: Container(
+                      decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          color: CustomIcon.types[type]?.color),
+                      child:
+                          const Icon(Icons.question_mark, color: Colors.white)),
                   iconSize: 16,
-                  splashRadius: 24)
+                  splashRadius: 24),
         ]));
   }
 }
