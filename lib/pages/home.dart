@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:provider/provider.dart';
 import 'package:speelopveilig/model/dynamic_data.dart';
 import 'package:speelopveilig/widgets/custom_icon.dart';
@@ -16,7 +17,7 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var chapters = context.watch<DynamicData>().chapters;
+    final dynamicData = context.watch<DynamicData>();
 
     return Scaffold(
       appBar: AppBar(title: const Text('SPEEL OP VEILIG'), actions: [
@@ -24,17 +25,17 @@ class Home extends StatelessWidget {
             onPressed: () => Navigator.of(context).pushNamed('/wegwijs'),
             icon: const Icon(Icons.help_outline))
       ]),
-      body: ListView(
-        padding: const EdgeInsets.all(20),
+      body: SingleChildScrollView(
+          child: Column(
         children: [
           Padding(
-              padding: const EdgeInsets.only(bottom: 20),
+              padding: const EdgeInsets.all(20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text('Thema\'s',
                       style: Theme.of(context).textTheme.headlineLarge),
-                  ...(chapters ?? [])
+                  ...(dynamicData.chapters ?? [])
                       .map((c) => TextButton(
                             onPressed: () =>
                                 Navigator.pushNamed(context, '/${c.url}'),
@@ -54,7 +55,7 @@ class Home extends StatelessWidget {
                 ],
               )),
           Padding(
-              padding: const EdgeInsets.only(bottom: 20),
+              padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
               child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -75,8 +76,14 @@ class Home extends StatelessWidget {
                             ))
                         .toList()
                   ])),
+          Padding(
+            padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
+            child: Text(
+                'Speel op Veilig v${dynamicData.packageInfo?.version ?? ''}',
+                style: const TextStyle(fontSize: 16, color: Colors.grey)),
+          )
         ],
-      ),
+      )),
     );
   }
 }

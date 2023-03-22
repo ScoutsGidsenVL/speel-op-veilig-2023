@@ -3,11 +3,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:speelopveilig/model/chapters.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 
 const dataRepo =
     'https://raw.githubusercontent.com/ScoutsGidsenVL/speel-op-veilig-2023/main';
 
 class DynamicData extends ChangeNotifier {
+  PackageInfo? packageInfo;
   List<Chapter>? chapters;
   Map<String, String> text = {};
 
@@ -17,6 +19,7 @@ class DynamicData extends ChangeNotifier {
 
   Future refreshData() async {
     await Future.wait([
+      getPackageInfo(),
       refreshChapters(),
       refreshText('crisis'),
       refreshText('veilige_activiteit'),
@@ -24,6 +27,10 @@ class DynamicData extends ChangeNotifier {
       refreshText('wegwijs'),
     ]);
     notifyListeners();
+  }
+
+  Future getPackageInfo() async {
+    packageInfo = await PackageInfo.fromPlatform();
   }
 
   Future refreshChapters() async {
