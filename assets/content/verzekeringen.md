@@ -7,7 +7,7 @@ Je hebt als leiding de wettelijke plicht om zoveel mogelijk gevaren te voorzien 
 Zorg dat voor alle leden een actuele individuele steekkaart is ingevuld en volg die informatie nauwkeurig op.
 
 ## Toezichtsplicht
-Je moet er als leiding actief op toezien dat leden zichzelf niet in gevaar brengen. Als verkenners met bijlen beginnen te spelen, ben je verplicht om in te grijpen. Als kapoenen in een boom willen klimmen, hou je een oogje in het zeil.
+Je moet er als leiding actief op toezien dat leden zichzelf niet in gevaar brengen. Als verkenners met bijlen beginnen te spelen, ben je verplicht om in te grijpen. Als kapoenen in een boom willen klimmen, hou je een oogje in het zeil. TEST
 
 ## Verzekeringen
 Als leiding van Scouts en Gidsen Vlaanderen is je burgerlijke aansprakelijkheid verzekerd voor schade die jezelf of de je toevertrouwde leden toebrengen aan anderen. Tenzij uit de feiten van een ongeluk blijkt dat je je niet aan de regels hebt gehouden. In dat geval bestaat de kans dat jij de kosten zelf zal moeten betalen.
