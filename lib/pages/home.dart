@@ -27,6 +27,7 @@ class Home extends StatelessWidget {
       ]),
       body: SingleChildScrollView(
           child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Padding(
               padding: const EdgeInsets.all(20),
@@ -76,12 +77,27 @@ class Home extends StatelessWidget {
                             ))
                         .toList()
                   ])),
-          Padding(
-            padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
-            child: Text(
-                'Speel op Veilig v${dynamicData.packageInfo?.version ?? ''}',
-                style: const TextStyle(fontSize: 16, color: Colors.grey)),
-          )
+          Material(
+              color: Theme.of(context).colorScheme.primary,
+              child: Padding(
+                padding: const EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: 4),
+                      child: Text('Scouts en Gidsen Vlaanderen ©',
+                          style: TextStyle(
+                              fontSize: 16,
+                              color: Theme.of(context).colorScheme.onPrimary)),
+                    ),
+                    Text(
+                        'Speel op Veilig v${dynamicData.packageInfo?.version ?? '?'}',
+                        style:
+                            const TextStyle(fontSize: 14, color: Colors.grey)),
+                  ],
+                ),
+              )),
         ],
       )),
     );
