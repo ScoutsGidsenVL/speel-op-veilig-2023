@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:speel_op_veilig/model/dynamic_data.dart';
-import 'package:speel_op_veilig/widgets/info_item.dart';
-import 'package:speel_op_veilig/widgets/rules.dart';
+import 'package:speelopveilig/model/dynamic_data.dart';
+import 'package:speelopveilig/widgets/info_item.dart';
+import 'package:speelopveilig/widgets/rules.dart';
 
 class Thema extends StatelessWidget {
   const Thema({Key? key, required this.name}) : super(key: key);

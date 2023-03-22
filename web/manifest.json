@@ -1,6 +1,6 @@
 {
-    "name": "speel_op_veilig",
-    "short_name": "speel_op_veilig",
+    "name": "Speel op Veilig",
+    "short_name": "Speel op Veilig",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#fafafa",

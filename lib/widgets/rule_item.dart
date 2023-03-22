@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:speel_op_veilig/util.dart';
-import 'package:speel_op_veilig/widgets/custom_icon.dart';
+import 'package:speelopveilig/util.dart';
+import 'package:speelopveilig/widgets/custom_icon.dart';
 
 class RuleItem extends StatelessWidget {
   final String? text;

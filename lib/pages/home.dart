@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:speel_op_veilig/model/dynamic_data.dart';
-import 'package:speel_op_veilig/widgets/custom_icon.dart';
+import 'package:speelopveilig/model/dynamic_data.dart';
+import 'package:speelopveilig/widgets/custom_icon.dart';
 
 class Home extends StatelessWidget {
   final _infoPages = {

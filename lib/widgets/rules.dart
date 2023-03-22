@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
-import 'package:speel_op_veilig/model/chapters.dart';
-import 'package:speel_op_veilig/util.dart';
-import 'package:speel_op_veilig/widgets/custom_icon.dart';
-import 'package:speel_op_veilig/widgets/rule_item.dart';
+import 'package:speelopveilig/model/chapters.dart';
+import 'package:speelopveilig/util.dart';
+import 'package:speelopveilig/widgets/custom_icon.dart';
+import 'package:speelopveilig/widgets/rule_item.dart';
 
 class Rules extends StatelessWidget {
   final String type;

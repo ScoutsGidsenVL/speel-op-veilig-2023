@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:speel_op_veilig/model/dynamic_data.dart';
-import 'package:speel_op_veilig/pages/home.dart';
-import 'package:speel_op_veilig/pages/static.dart';
-import 'package:speel_op_veilig/pages/vragen.dart';
-import 'package:speel_op_veilig/pages/wegwijs.dart';
-import 'package:speel_op_veilig/pages/thema.dart';
+import 'package:speelopveilig/model/dynamic_data.dart';
+import 'package:speelopveilig/pages/home.dart';
+import 'package:speelopveilig/pages/static.dart';
+import 'package:speelopveilig/pages/vragen.dart';
+import 'package:speelopveilig/pages/wegwijs.dart';
+import 'package:speelopveilig/pages/thema.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 

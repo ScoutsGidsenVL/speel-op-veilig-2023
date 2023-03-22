@@ -1,4 +1,4 @@
-package be.scoutsengidsenvlaanderen.speel_op_veilig
+package be.scoutsengidsenvlaanderen.speelopveilig
 
 import io.flutter.embedding.android.FlutterActivity
 

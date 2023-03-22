@@ -1,8 +1,8 @@
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:speel_op_veilig/model/dynamic_data.dart';
-import 'package:speel_op_veilig/util.dart';
+import 'package:speelopveilig/model/dynamic_data.dart';
+import 'package:speelopveilig/util.dart';
 
 class Static extends StatelessWidget {
   const Static({super.key, required this.path, required this.title});

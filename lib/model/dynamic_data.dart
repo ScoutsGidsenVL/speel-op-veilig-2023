@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-import 'package:speel_op_veilig/model/chapters.dart';
+import 'package:speelopveilig/model/chapters.dart';
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 
 const dataRepo =
