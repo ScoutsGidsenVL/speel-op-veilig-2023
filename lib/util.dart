@@ -9,7 +9,8 @@ MarkdownStyleSheet markdownStyle(BuildContext context) {
           color: Theme.of(context).colorScheme.secondary,
           decoration: TextDecoration.underline),
       h2: TextStyle(
-          fontSize: 24, color: Theme.of(context).colorScheme.secondary));
+          fontSize: 24, color: Theme.of(context).colorScheme.secondary),
+      h2Padding: const EdgeInsets.only(top: 8));
 }
 
 void Function(String, String?, String) linkHandler(BuildContext context) {

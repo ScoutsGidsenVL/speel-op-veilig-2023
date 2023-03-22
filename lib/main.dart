@@ -7,8 +7,14 @@ import 'package:speel_op_veilig/pages/wegwijs.dart';
 import 'package:speel_op_veilig/pages/intro.dart';
 import 'package:speel_op_veilig/pages/thema.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() {
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  Future.delayed(const Duration(milliseconds: 600)).then((_) {
+    FlutterNativeSplash.remove();
+  });
   runApp(const MyApp());
 }
 
@@ -41,8 +47,8 @@ class MyAppState extends State<MyApp> {
                   fontFamily: "DCCAsh", fontSize: 24, color: secondary),
               headlineSmall: TextStyle(
                   fontSize: 18, color: primary, fontWeight: FontWeight.bold),
+              bodyLarge: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               bodyMedium: TextStyle(fontSize: 18),
-              bodySmall: TextStyle(fontSize: 16),
             )),
         initialRoute: '/intro',
         routes: <String, WidgetBuilder>{

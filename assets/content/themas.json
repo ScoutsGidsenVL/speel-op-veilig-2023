@@ -77,11 +77,11 @@
                                     "why": "Heet frituurvet is snel ontvlambaar."
                                 },
                                 {
-                                    "item": "Hou fleece en andere synthetische kledij weg van het vuur",
+                                    "item": "Hou fleece en andere synthetische kledij weg van het vuur.",
                                     "why": "Synthetische stoffen smelten en kunnen ernstige brandwonden veroorzaken."
                                 },
                                 {
-                                    "item": "Laat brandend of uitdovend vuur of vuurresten nooit onbewaakt achter",
+                                    "item": "Laat brandend of uitdovend vuur of vuurresten nooit onbewaakt achter.",
                                     "why": "Het vuur kan opnieuw opflakkeren."
                                 }
                             ]
@@ -119,8 +119,8 @@
                                     "why": "Binnenin een tak kan nog vuur smeulen dat je niet kan zien, enkel voelen."
                                 },
                                 {
-                                    "item": "Vermijd bij bliksem vlaktes en alles dat boven de omgeving uitsteekt (torens, masten, bomen, hoogtes, tenten). Ga zo snel mogelijk uit het water. Schuil in gebouwen of auto’s. Niet mogelijk? Ga gehurkt zitten en maak je zo klein mogelijk. ",
-                                    "why": "Bliksem zoekt het hoogste punt. Ook op water ben je als zwemmer het hoogste punt en loop je gevaar. Boten zijn meestal voorzien van een bliksemafleider"
+                                    "item": "Vermijd bij bliksem vlaktes en alles dat boven de omgeving uitsteekt (torens, masten, bomen, hoogtes, tenten). Ga zo snel mogelijk uit het water. Schuil in gebouwen of auto’s. Niet mogelijk? Ga gehurkt zitten en maak je zo klein mogelijk.",
+                                    "why": "Bliksem zoekt het hoogste punt. Ook op water ben je als zwemmer het hoogste punt en loop je gevaar. Boten zijn meestal voorzien van een bliksemafleider."
                                 }
                             ]
                         }
@@ -136,7 +136,7 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
@@ -152,7 +152,7 @@
                                     },
                                     {
                                         "group": "jins-loodsen",
-                                        "answer": "Ja"
+                                        "answer": "Ja."
                                     }
                                 ]
                             },
@@ -174,11 +174,11 @@
                                     },
                                     {
                                         "group": "gidsen-verkenners",
-                                        "answer": "Ja"
+                                        "answer": "Ja."
                                     },
                                     {
                                         "group": "jins-loodsen",
-                                        "answer": "Ja"
+                                        "answer": "Ja."
                                     }
                                 ]
                             }
@@ -213,7 +213,7 @@
                                     "item": "**In Vlaanderen is het verboden om te zwemmen in bevaarbare waterwegen.** Zwemmen in beken en sloten wordt ten zeerste afgeraden omdat de veiligheid niet gegarandeerd kan worden."
                                 },
                                 {
-                                    "item": "**In Vlaanderen mag je met een zelfgebouwd vlot varen op de 'onbevaarbare waterlopen'**: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
+                                    "item": "**In Vlaanderen mag je met een zelfgebouwd vlot varen op de ‘onbevaarbare waterlopen’**: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
                                 },
                                 {
                                     "item": "**In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones.**"
@@ -269,25 +269,25 @@
                 "title": "Meer weten over water?",
                 "list": [
                     {
-                        "title": "Erkende zwemwateren in Vlaanderen: [kwaliteitzwemwater.be](http://www.kwaliteitzwemwater.be)"
+                        "title": "Erkende zwemwateren in Vlaanderen: [kwaliteitzwemwater.be](https://www.kwaliteitzwemwater.be)"
                     },
                     {
                         "title": "Aangewezen badzones in Wallonië: [environnement.wallonie.be/baignade](http://environnement.wallonie.be/baignade)"
                     },
                     {
-                        "title": "Voor vlotten gelden dezelfde regels als voor kano’s en kajaks: [visurius.be/kano](http://www.visurius.be/kano), [kayak.environnement.wallonie.be](http://kayak.environnement.wallonie.be) kajakzones"
+                        "title": "Voor vlotten gelden dezelfde regels als voor kano’s en kajaks: [visuris.be/kano](https://www.visuris.be/kano), [kayak.environnement.wallonie.be](http://kayak.environnement.wallonie.be) kajakzones"
                     },
                     {
                         "title": "Zeescouting: Voor zeescouting gelden specifieke richtlijnen die je vindt in het handboek ‘Nautische vaardigheden’"
                     },
                     {
-                        "title": "Betekenis signalisatie: [ikwv.be](http://www.ikwv.be)"
+                        "title": "Betekenis signalisatie: [ikwv.be](https://www.ikwv.be)"
                     },
                     {
-                        "title": "Zwemvesten uitlenen: [sport.vlaanderen](http://www.sport.vlaanderen) zoek op ‘uitleendiensten’, Via jeugddiensten"
+                        "title": "Zwemvesten uitlenen: [sport.vlaanderen](https://www.sport.vlaanderen) zoek op ‘uitleendiensten’, Via jeugddiensten"
                     },
                     {
-                        "title": "Schaatsvijvers: [natuurenbos.be/schaatsen](http://www.natuurenbos.be/schaatsen)"
+                        "title": "Schaatsvijvers: [natuurenbos.be/schaatsen](https://www.natuurenbos.be/schaatsen)"
                     }
                 ]
             }
@@ -374,16 +374,16 @@
                 "title": "Meer weten over hoogte?",
                 "list": [
                     {
-                        "title": "Over bergsport: [klimenbergsportfederatie.be](http://www.klimenbergsportfederatie.be)"
+                        "title": "Over bergsport: [klimenbergsportfederatie.be](https://www.klimenbergsportfederatie.be)"
                     },
                     {
-                        "title": "Over speleologie: [www.speleovvs.be](http://www.speleovvs.be)"
+                        "title": "Over speleologie: [www.speleovvs.be](https://www.speleovvs.be)"
                     },
                     {
                         "title": "Over kabelbanen: [technieken@scoutsengidsenvlaanderen.be](mailto:technieken@scoutsengidsenvlaanderen.be)"
                     },
                     {
-                        "title": "Brochure Grote sjorconstructies: [www.scoutsengidsenvlaanderen.be/grote-sjorconstructies](http://www.scoutsengidsenvlaanderen.be/grote-sjorconstructies)"
+                        "title": "Brochure Grote sjorconstructies: [www.scoutsengidsenvlaanderen.be/publicaties/grote-sjorconstructies](https://www.scoutsengidsenvlaanderen.be/publicaties/grote-sjorconstructies)"
                     }
                 ]
             }
@@ -498,11 +498,11 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -510,11 +510,11 @@
                                     },
                                     {
                                         "group": "gidsen-verkenners",
-                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid."
                                     },
                                     {
                                         "group": "jins-loodsen",
-                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid"
+                                        "answer": "Ja, als ze op de hoogte zijn van de basisregels over veiligheid."
                                     }
                                 ]
                             }
@@ -526,10 +526,10 @@
                 "title": "Meer weten over materiaal?",
                 "list": [
                     {
-                        "title": "Over speelterreinen en wetgeving: [scoutsengidsenvlaanderen.be](http://scoutsengidsenvlaanderen.be) zoek op ‘speeltoestellen’"
+                        "title": "Over speelterreinen en wetgeving: [scoutsengidsenvlaanderen.be](https://scoutsengidsenvlaanderen.be) zoek op ‘speeltoestellen’"
                     },
                     {
-                        "title": "Over veilig gebruik en onderhoud van materiaal: het Buitenboek, te koop in Hopper Winkel en www.scoutsengidsenvlaanderen.be/technieken-databank"
+                        "title": "Over veilig gebruik en onderhoud van materiaal: het Buitenboek, te koop in Hopper Winkel en [scoutsengidsenvlaanderen.be/technieken-databank](https://www.scoutsengidsenvlaanderen.be/technieken)"
                     }
                 ]
             }
@@ -591,7 +591,7 @@
                                         },
                                         {
                                             "item": "Groepen vanaf vijf personen moeten verplicht een rood licht rechts vooraan en wit licht rechts achteraan dragen als je minder dan 200 meter ver kan zien.",
-                                            "why": "Zo geef je je wandelrichting aan"
+                                            "why": "Zo geef je je wandelrichting aan."
                                         },
                                         {
                                             "item": "Is de groep lang? Dan is het verplicht om op de flanken bijkomende witte lichten te voorzien die in alle richtingen zichtbaar zijn."
@@ -664,11 +664,11 @@
                             "list": [
                                 {
                                     "item": "Pas de lengte van je tocht aan de leeftijd van je leden aan. Een goed gemiddelde tot veertien jaar is: het aantal kilometers van de tocht = de leeftijd van de leden.",
-                                    "why": "Op trage wegen rijdt weinig tot geen gemotoriseerd verkeer. Het is er bovendien leuker en mooier wandelen."
+                                    "why": "In een groep waar de vermoeidheid toeslaat, geraken trage en vermoeide stappers achterop."
                                 },
                                 {
                                     "item": "Stippel je reisweg op voorhand uit en kies zoveel mogelijk voor ‘trage wegen’.",
-                                    "why": "In een groep waar de vermoeidheid toeslaat, geraken trage en vermoeide stappers achterop."
+                                    "why": "Op trage wegen rijdt weinig tot geen gemotoriseerd verkeer. Het is er bovendien leuker en mooier wandelen."
                                 }
                             ]
                         }
@@ -700,7 +700,7 @@
                                 },
                                 {
                                     "item": "Tijdens weekendnachten zijn avond- en nachtdroppingen langs verharde openbare wegen verboden.",
-                                    "why": "De kans op ongevallen tijdens weekendnachten is groter. "
+                                    "why": "De kans op ongevallen tijdens weekendnachten is groter."
                                 },
                                 {
                                     "item": "De deelnemers zijn minimum per twee en blijven samen."
@@ -753,11 +753,11 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -779,11 +779,11 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -950,7 +950,7 @@
                             "type": "richtlijn",
                             "list": [
                                 {
-                                    "item": "Met kabouters en (zee)welpen kan je een fietsactiviteit op het scoutsterrein doen. We raden af om met hen op de openbare weg te fietsen",
+                                    "item": "Met kabouters en (zee)welpen kan je een fietsactiviteit op het scoutsterrein doen. We raden af om met hen op de openbare weg te fietsen.",
                                     "why": "Pas vanaf 10 jaar kunnen kinderen reageren op risico’s, koers houden op de fiets, achterom kijken en richting aangeven zonder te slingeren. Vanaf twaalf jaar kunnen ze een ingewikkelde verkeerssituatie met meerdere auto’s beoordelen, en pas een jaar later kunnen ze langzaam fietsen zonder te slingeren. Het vermogen om je aandacht ergens bij te houden en informatie te verwerken, ontwikkelt zich nog verder tot de leeftijd van vijftien jaar."
                                 },
                                 {
@@ -1007,7 +1007,7 @@
                                     },
                                     {
                                         "group": "kabouters-welpen",
-                                        "answer": "Wij raden het af"
+                                        "answer": "Wij raden het af."
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
@@ -1027,7 +1027,7 @@
                     }
                 },
                 {
-                    "title": "Auto's",
+                    "title": "Auto’s",
                     "content": [
                         {
                             "title": "Wet over auto’s",
@@ -1077,10 +1077,10 @@
                         "title": "Verkeersinformatie specifiek voor jeugdbewegingen vind je op: [veiligopstap.be](https://veiligopstap.be)"
                     },
                     {
-                        "title": "Informatie over je veilig bewegen in het verkeer in Vlaanderen vind je bij de Vlaamse Stichting Verkeerskunde: [veiligverkeer.be](http://veiligverkeer.be)"
+                        "title": "Informatie over je veilig bewegen in het verkeer in Vlaanderen vind je bij de Vlaamse Stichting Verkeerskunde: [veiligverkeer.be](https://veiligverkeer.be)"
                     },
                     {
-                        "title": "Rustige wandelwegen vind je op: [tragewegen.be](http://tragewegen.be)"
+                        "title": "Rustige wandelwegen vind je op: [tragewegen.be](https://tragewegen.be)"
                     }
                 ]
             }
@@ -1137,7 +1137,7 @@
                             "list": [
                                 {
                                     "item": "**Het is verboden om te roken in scouts- en gidsenlokalen**, ook op plaatsen waar enkel leiding komt. Dat geldt voor alle rookwaren: sigaretten, sigaren, e-sigaretten en waterpijpen.",
-                                    "why": "Scoutslokalen zijn namelijk openbare plaatsen"
+                                    "why": "Scoutslokalen zijn namelijk openbare plaatsen."
                                 },
                                 {
                                     "item": "Je bent verplicht om **aan elke ingang van het lokaal een rookverbodsteken te hangen.** En in het lokaal mag niets wijzen op de mogelijkheid tot roken. Propere asbakken in het lokaal bijvoorbeeld zijn verboden en strafbaar."
@@ -1193,7 +1193,7 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
@@ -1309,7 +1309,7 @@
                                 "answers": [
                                     {
                                         "group": "kapoenen-zeehondjes",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "kabouters-welpen",
@@ -1317,7 +1317,7 @@
                                     },
                                     {
                                         "group": "jonggidsen-verkenners-scheepsmakkers",
-                                        "answer": "Neen"
+                                        "answer": "Neen."
                                     },
                                     {
                                         "group": "gidsen-verkenners",
@@ -1341,19 +1341,19 @@
                 "title": "Meer weten over tabak, alcohol en drugs?",
                 "list": [
                     {
-                        "title": "Over fuiven: [qualitynights.be](http://www.qualitynights.be)"
+                        "title": "Over fuiven: [qualitynights.be](https://qualitynights.be/nl/)"
                     },
                     {
-                        "title": "Over drugs: [druglijn.be](htpp://www.druglijn.be), [078 15 10 20](tel:078151020)"
+                        "title": "Over drugs: [druglijn.be](https://www.druglijn.be), [078 15 10 20](tel:078151020)"
                     },
                     {
                         "title": "Over drugs in de jeugdbeweging: [drugsinbeweging.be](https://www.drugsinbeweging.be/)"
                     },
                     {
-                        "title": "Vereniging voor alcohol- en andere drugproblemen (VAD): [vad@vad.be](mailto:vad@vad.be), [vad.be](http://www.vad.be)"
+                        "title": "Vereniging voor alcohol- en andere drugproblemen (VAD): [vad@vad.be](mailto:vad@vad.be), [vad.be](https://www.vad.be)"
                     },
                     {
-                        "title": "Over zelf een alcoholbeleid opstellen: [scoutsengidsenvlaanderen.be/bar](http://scoutsengidsenvlaanderen.be/bar)"
+                        "title": "Over zelf een alcoholbeleid opstellen: [scoutsengidsenvlaanderen.be/bar](https://scoutsengidsenvlaanderen.be/bar)"
                     }
                 ]
             }
@@ -1409,7 +1409,7 @@
                                     "why": "Sommige ervaringen liggen heel dicht bij traumatische / schokkende gebeurtenissen die kinderen meegemaakt hebben."
                                 },
                                 {
-                                    "item": "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig"
+                                    "item": "Heb oog voor groepsdruk. Geef het goede voorbeeld en grijp in waar nodig."
                                 },
                                 {
                                     "item": "Wat het aantal dagen op kamp betreft, volg de richtlijn per tak."
@@ -1424,7 +1424,7 @@
                             "type": "suggestie",
                             "list": [
                                 {
-                                    "item": "Vermoeidheid brengt risico’s met zich mee. Kinderen onderde 12 jaar hebben gemiddeld 9 tot 10 uur slaap nodig, oudere leden ongeveer 8 uur. Gun je leden voldoende recuperatietijd na nachtactiviteiten en tochten."
+                                    "item": "Vermoeidheid brengt risico’s met zich mee. Kinderen onder de 12 jaar hebben gemiddeld 9 tot 10 uur slaap nodig, oudere leden ongeveer 8 uur. Gun je leden voldoende recuperatietijd na nachtactiviteiten en tochten."
                                 },
                                 {
                                     "item": "Kies je voor een kampuur? Zorg er dan voor dat het niet meer dan 1 uur verschilt met het gewone uur.",
@@ -1461,7 +1461,7 @@
                             ]
                         },
                         {
-                            "title": "Suggesties over hygiëne ",
+                            "title": "Suggesties over hygiëne",
                             "type": "suggestie",
                             "list": [
                                 {
@@ -1473,7 +1473,7 @@
                                 },
                                 {
                                     "item": "Bewaar bereide gerechten, zuivel, vlees en vis afgesloten en onder de 7°C. Leg het na aankoop zo snel mogelijk in de koelkast.",
-                                    "why": "Bacteriën en schimmels groeien tussen 7°C en 65°C"
+                                    "why": "Bacteriën en schimmels groeien tussen 7°C en 65°C."
                                 },
                                 {
                                     "item": "Bak vis en vlees, zeker kip en varkensvlees, door en door gaar."
@@ -1744,19 +1744,19 @@
                 "title": "Meer weten over welzijn?",
                 "list": [
                     {
-                        "title": "Over andere risico’s: [info@scoutsengidsenvlaanderen.be](mailto:info@scoutsengidsenvlaanderen.be), [scoutsengidsenvlaanderen.be](http://scoutsengidsenvlaanderen.be), in de basiswerken van Scouts en Gidsen Vlaanderen: Takboekjes, Buitenboek, Kampvisum en in Eerste Hulp voor jeugdleiders. Allemaal te verkrijgen in Hopper Winkel."
+                        "title": "Over andere risico’s: [info@scoutsengidsenvlaanderen.be](mailto:info@scoutsengidsenvlaanderen.be), [scoutsengidsenvlaanderen.be](https://scoutsengidsenvlaanderen.be), in de basiswerken van Scouts en Gidsen Vlaanderen: Takboekjes, Buitenboek, Kampvisum en in Eerste Hulp voor jeugdleiders. Allemaal te verkrijgen in Hopper Winkel."
                     },
                     {
-                        "title": "Over lichamelijkheid en seksualiteit: [seksuelevorming.be](htpp://www.seksuelevorming.be) zoek op (N)iets mis mee"
+                        "title": "Over lichamelijkheid en seksualiteit: [seksuelevorming.be](https://www.seksuelevorming.be) zoek op (N)iets mis mee"
                     },
                     {
                         "title": "Over welzijn: [watwat.be](https://www.watwat.be/), [awel.be](https://www.awel.be), [bel 102](tel:102)"
                     },
                     {
-                        "title": "Bij vermoeden van misbruik of mishandeling: [kindermishandeling.be](http://www.kindermishandeling.be)"
+                        "title": "Bij vermoeden van misbruik of mishandeling: [kindermishandeling.be](https://www.kindermishandeling.be)"
                     },
                     {
-                        "title": "Over voedselveiligheid: [kokenopkamp.be/voedselveiligheid](http://www.kokenopkamp.be/voedselveiligheid), [scoutsengidsenvlaanderen.be](http://scoutsengidsenvlaanderen.be) brochure Bederf je kamp niet, zoek op ‘bederf’"
+                        "title": "Over voedselveiligheid: [kokenopkamp.be/voedselveiligheid](https://www.kokenopkamp.be/voedselveiligheid), [scoutsengidsenvlaanderen.be](https://scoutsengidsenvlaanderen.be) brochure Bederf je kamp niet, zoek op ‘bederf’"
                     }
                 ]
             }

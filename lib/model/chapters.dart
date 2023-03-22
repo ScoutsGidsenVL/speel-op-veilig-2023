@@ -2,6 +2,9 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'chapters.g.dart';
 
+// Na aanpassingen in dit bestand, run:
+// flutter pub run build_runner watch --delete-conflicting-outputs
+
 @JsonSerializable(createToJson: false)
 class Chapters {
   Chapters(this.chapters);

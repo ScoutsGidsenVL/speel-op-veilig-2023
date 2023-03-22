@@ -1,16 +1,24 @@
 # speel-op-veilig-2023
 
-A new Flutter project.
+> De [Speel op Veilig](https://www.scoutsengidsenvlaanderen.be/publicaties/speel-op-veilig) app van Scouts en Gidsen Vlaanderen.
 
-## Getting Started
+Gebouwd met [Flutter](https://docs.flutter.dev/).
 
-This project is a starting point for a Flutter application.
+## Installatie
+1. Installeer flutter: [Get started](https://docs.flutter.dev/get-started/install).
+2. De app source code zit in `lib/` en `assets/`.
+3. Als je IDE dit niet doet, run `flutter pub get`.
 
-A few resources to get you started if this is your first Flutter project:
+## Development
+1. Het is aangeraden om [VSCode](https://code.visualstudio.com/) te gebruiken met de [Flutter extensie](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter).
+2. Anders kan je gebruik maken van `flutter run` ([meer documentatie](https://docs.flutter.dev/get-started/test-drive?tab=terminal))
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Automatisch genereren van bestanden
+Enkele delen van de app worden automatisch gegenereerd. Bij het aanpassen van de configuratie (in `pubspec.yaml`) of bron bestanden moeten volgende commands uitgevoerd worden:
+1. [Launcher icons](https://pub.dev/packages/flutter_launcher_icons): `flutter pub run flutter_launcher_icons`
+2. [Splash screens](https://pub.dev/packages/flutter_native_splash): `flutter pub run flutter_native_splash:create`
+3. [Json parsers](https://pub.dev/packages/json_serializable): `flutter pub run build_runner watch --delete-conflicting-outputs`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Deployment
+1. [Instructions voor Android](https://docs.flutter.dev/deployment/android)
+2. [Instructions voor iOS](https://docs.flutter.dev/deployment/ios)

@@ -6,7 +6,6 @@ import 'package:speel_op_veilig/model/dynamic_data.dart';
 import 'package:speel_op_veilig/util.dart';
 import 'package:speel_op_veilig/widgets/custom_icon.dart';
 import 'package:speel_op_veilig/widgets/faq.dart';
-import 'package:speel_op_veilig/widgets/section.dart';
 import 'package:expandable/expandable.dart';
 
 class Vragen extends StatefulWidget {
@@ -58,7 +57,7 @@ class VragenState extends State<Vragen> {
                     children: Faq.groups.entries
                         .map((g) => CheckboxListTile(
                             title: Text(g.value,
-                                style: Theme.of(context).textTheme.bodySmall),
+                                style: Theme.of(context).textTheme.bodyMedium),
                             dense: true,
                             contentPadding: const EdgeInsets.all(0),
                             visualDensity: const VisualDensity(vertical: -2),
@@ -70,8 +69,12 @@ class VragenState extends State<Vragen> {
           ...questions
               .where((c) =>
                   c.content?.any((e) => e.answers.any(filterAnswer)) ?? false)
-              .map((c) => Section(
-                      title: Row(children: [
+              .map((c) => Padding(
+                  padding: const EdgeInsets.only(bottom: 40),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(children: [
                         CustomIcon(type: c.icon, size: 20),
                         Padding(
                             padding: const EdgeInsets.only(left: 4),
@@ -79,27 +82,24 @@ class VragenState extends State<Vragen> {
                                 style:
                                     Theme.of(context).textTheme.headlineLarge)),
                       ]),
-                      children: [
-                        ...c.content
-                                ?.where((e) => e.answers.any((a) =>
-                                    _filter.isEmpty ||
-                                    _filter.contains(a.group)))
-                                .map((e) => Faq(
-                                    question: e.question,
-                                    answers: Map.fromEntries(e.answers
-                                        .where(filterAnswer)
-                                        .map((a) =>
-                                            MapEntry(a.group, a.answer)))))
-                                .toList() ??
-                            [],
-                        c.url == null
-                            ? Container()
-                            : MarkdownBody(
-                                data:
-                                    '[Meer weten over ${c.title.toLowerCase()}...](/${c.url})',
-                                styleSheet: markdownStyle(context),
-                                onTapLink: linkHandler(context)),
-                      ])),
+                      ...(c.content ?? [])
+                          .where((e) => e.answers.any((a) =>
+                              _filter.isEmpty || _filter.contains(a.group)))
+                          .map((e) => Faq(
+                              question: e.question,
+                              answers: Map.fromEntries(e.answers
+                                  .where(filterAnswer)
+                                  .map((a) => MapEntry(a.group, a.answer)))))
+                          .toList(),
+                      c.url == null
+                          ? Container()
+                          : MarkdownBody(
+                              data:
+                                  '[Meer weten over ${c.title.toLowerCase()}...](/${c.url})',
+                              styleSheet: markdownStyle(context),
+                              onTapLink: linkHandler(context)),
+                    ],
+                  )))
         ]));
   }
 }
