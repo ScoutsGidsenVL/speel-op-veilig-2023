@@ -216,7 +216,10 @@
                                     "item": "**In Vlaanderen mag je met een zelfgebouwd vlot varen op de ‘onbevaarbare waterlopen’**: beekjes en riviertjes waarop geen scheepvaart mogelijk is."
                                 },
                                 {
-                                    "item": "**In Wallonië mag je enkel zwemmen en varen met een vlot in aangewezen badzones.**"
+                                    "item": "**In Wallonië mag je enkel zwemmen in aangewezen badzones en met een vlot varen in kajakzones.**"
+                                },
+                                {
+                                    "item": "**Ga enkel in de zee bij groene of gele vlag.** Wees extra waakzaam bij gele vlag. Ga nooit in de zee bij rode vlag."
                                 }
                             ]
                         },
@@ -257,7 +260,7 @@
                                     "why": "Die staan bij zwaar regenweer soms razendsnel onder water."
                                 },
                                 {
-                                    "item": "Draag altijd een zwemvest op een vlot, in een kajak of kano.",
+                                    "item": "Draag een zwemvest of reddingsvest op een vlot, in een kajak en kano, ook bij het in- en uitstappen.",
                                     "why": "Ook als je kan zwemmen. Wie uit  een kajak of kano valt, kan zich kwetsen of gedesoriënteerd geraken."
                                 }
                             ]
@@ -1049,7 +1052,7 @@
                             "type": "regel",
                             "list": [
                                 {
-                                    "item": "Wie een auto bestuurt, heeft geen druppel alcohol gedronken. Zorg dat er altijd iemand van de leidingsploeg onverwacht met de auto de weg op kan."
+                                    "item": "Wie een voer- of vaartuig bestuurd heeft geen druppel alcohol gedronken. Zorg dat er altijd iemand van de leidingsploeg onverwacht met de auto de weg op kan."
                                 }
                             ]
                         },
@@ -1141,6 +1144,9 @@
                                 },
                                 {
                                     "item": "Je bent verplicht om **aan elke ingang van het lokaal een rookverbodsteken te hangen.** En in het lokaal mag niets wijzen op de mogelijkheid tot roken. Propere asbakken in het lokaal bijvoorbeeld zijn verboden en strafbaar."
+                                },
+                                {
+                                    "item": "Het is **verboden te roken in een voertuig** in het bijzijn van minderjarigen."
                                 }
                             ]
                         },
@@ -1373,10 +1379,13 @@
                                     "item": "De wetgeving over het welzijn van kinderen en minderjarigen is uitgebreid en er zijn geen specifieke regels voor het jeugdwerk. Het Internationaal Verdrag Inzake de Rechten van het Kind is wel belangrijk voor ons. Zo heeft een kind bijvoorbeeld recht op anders zijn, een eigen mening, privacy en bescherming tegen geweld."
                                 },
                                 {
-                                    "item": "**Vanaf 16 jaar is seksueel contact wettelijk toegestaan.** Vanaf 14 jaar kan je toestemming geven tot seksueel contact als het leeftijdsverschil maximaal 5 jaar is en er geen machtsrelatie is. Seks met iemand jonger dan 14 jaar wordt beschouwd als verkrachting. Seksueel misbruik is verboden. Er is sprake van seksueel misbruik, als iemand “een beleving van seksualiteit opdringt aan een ander en iemand onder druk zet en gebruikt omwille van de eigen genotsbeleving”."
+                                    "item": "**Vanaf 14 jaar is seksueel contact wettelijk toegestaan.** Je mag vanaf 14 jaar seks hebben als iedereen toestemming geeft, het leeftijdsverschil max. 3 jaar is en er geen ‘vertrouwens- of gezagsrelatie’ is. Vanaf 16 jaar mag je seks hebben als iedereen toestemming geeft en er geen ‘vertrouwens- of gezagsrelatie’ is."
                                 },
                                 {
-                                    "item": "**Enkel ouders en artsen mogen vrij verkrijgbare medicatie geven aan minderjarigen.** Ouders kunnen die toestemming overdragen, bijvoorbeeld via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
+                                    "item": "Seksueel contact hebben in het openbaar is verboden. De aantasting van de seksuele integriteit is verboden. Er is sprake van aantasting van de seksuele integriteit wanneer een seksuele handeling wordt gesteld op een persoon die daar niet in toestemt, met behulp van een andere persoon die daar niet in toestemt of door een persoon die daar niet in toestemt."
+                                },
+                                {
+                                    "item": "**Ouders (of wettelijk vertegenwoordigers) moeten steeds schriftelijke toestemming geven wanneer je foto’s wil trekken van hun kind.** Meerderjarigen kunnen deze toestemming zelf geven. Foto’s zonder toestemming publiceren is verboden."
                                 }
                             ]
                         },
@@ -1415,7 +1424,7 @@
                                     "item": "Wat het aantal dagen op kamp betreft, volg de richtlijn per tak."
                                 },
                                 {
-                                    "item": "Wees attent voor symptomen van ziekte, voorzie een goed ingerichte ziekenruimte die niet te ver ligt van de rest van de groep en aarzel nooit om een dokter te raadplegen."
+                                    "item": "Smeer leden en jezelf op zonnige dagen goed in met zonnecreme.Op het water verbrand je sneller en harder. Smeer je in met een hoge factor. "
                                 }
                             ]
                         },
@@ -1757,6 +1766,108 @@
                     },
                     {
                         "title": "Over voedselveiligheid: [kokenopkamp.be/voedselveiligheid](https://www.kokenopkamp.be/voedselveiligheid), [scoutsengidsenvlaanderen.be](https://scoutsengidsenvlaanderen.be) brochure Bederf je kamp niet, zoek op ‘bederf’"
+                    }
+                ]
+            }
+        },
+        {
+            "title": "EHBO, verzorging en medicatie",
+            "url": "ehbo-verzorging-en-medicatie",
+            "subchapters": [
+                {
+                    "title": "",
+                    "content": [
+                        {
+                            "title": "Wet over EHBO, verzorging en medicatie",
+                            "type": "wet",
+                            "list": [
+                                {
+                                    "item": "**De wetgeving over wie verpleegkundige handelingen mag uitvoeren is uitgebreid en streng.** Enkel iemand met een diploma van een gezondheidszorgberoep mag deze handelingen uitvoeren (bijvoorbeeld een arts, verpleegkundige, verloskundige...)."
+                                },
+                                {
+                                    "item": "**Verpleegkundige handelingen zijn strikt vastgelegd in de wet.** Hieronder vallen bijvoorbeeld het bereiden en toedienen van medicatie, zuurstoftoediening, toedienen van voeding bij personen met slikproblemen...."
+                                },
+                                {
+                                    "item": "**Niet-zorgprofessional kunnen uitzonderlijk bepaalde handelingen of activiteiten uitvoeren hoewel ze tot de zorgsector behoren.** Dit valt onder Activiteiten van het Dagelijks Leven. Dit de hulp bij essentiële activiteiten die de persoon nodig heeft omdat die deze handelingen/activiteiten niet of niet meer zelf kan uitvoeren, door bijvoorbeeld een jonge leeftijd of door een beperking. Deze activiteiten zijn strikt vastgelegd."
+                                },
+                                {
+                                    "item": "**Een bekwame helper is iemand die zelf geen verpleegkundige is en toch bepaalde verpleegkundige handelingen mag doen bij één persoon.** Dat gebeurt tijdens het uitoefenen van een vrijwillige activiteit, buiten een zorginstelling. De bekwame helper is gebonden aan een aantal voorwaarden en is wettelijk beschermd om een of meer welomschreven verpleegkundige handelingen uit te voeren."
+                                },
+                                {
+                                    "item": "**Enkel uitvoerders van een gezondheidszorgberoep en de ouders (of wettelijk vertegenwoordigers) mogen vrij verkrijgbare medicatie geven aan minderjarigen.** Ouders kunnen door de wet ‘Activiteiten van het Dagelijks Leven’ hun toestemming geven aan leiding via de individuele steekkaart. Voor medicatie op voorschrift is een schriftelijke verklaring van een arts noodzakelijk."
+                                },
+                                {
+                                    "item": "**Het toedienen van injecties valt onder de Bekwame Helper en vereisen steeds een opleiding van de zorgverstrekker.** Bijvoorbeeld het toedienen insuline of bloedverdunners."
+                                },
+                                {
+                                    "item": "**Wanneer een persoon in nood verkeert, is het toedienen van bepaalde injecties toegestaan, volgens het principe ‘hulp in nood’.** Deze handelingen zijn toegestaan omdat het niet toedienen van de juiste medicatie ernstige gevolgen kan hebben."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Regels Scouts en Gidsen Vlaanderen over EHBO, verzorging en medicatie",
+                            "type": "regel",
+                            "list": [
+                                {
+                                    "item": "Voor het toedienen van medicatie of het uitvoeren van handelingen is het belangrijk om expliciete en schriftelijke toestemmingen en doktersattesten te verzamelen. Gebruik hiervoor de individuele steekkaart op de Groepsadministratie. Voor medicatie op voorschrift is ook een schriftelijke verklaring van de arts noodzakelijk."
+                                },
+                                {
+                                    "title": "We gebruiken het voorzorgsprincipe bij het toedienen van medicatie. Symptoombestrijding is niet hetzelfde als probleembestrijding. Medicatie toedienen is enkel toegestaan bij:",
+                                    "items": [
+                                        {
+                                            "item": "En toestemming van de ouders (of wettelijk vertegenwoordigers)"
+                                        },
+                                        {
+                                            "item": "En enkel vrij verkrijgbare medicatie"
+                                        },
+                                        {
+                                            "item": "En enkel bij hoogdringendheid"
+                                        },
+                                        {
+                                            "item": "En bij onduidelijkheid of je bent onzeker eerst arts raadplegen"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "item": "Niemand kan verplicht worden de rol van Bekwame Helper op zich te nemen. Wanneer de leiding het niet ziet zitten om bepaalde handelingen uit te voeren bij leden, moet dit gerespecteerd worden. Ga met de ouders op zoek naar een andere oplossing (bijvoorbeeld via thuisverpleging, een persoonlijk assistent of mantelzorger...)."
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Richtlijnen Scouts en Gidsen Vlaanderen over EHBO, verzorging en medicatie",
+                            "type": "richtlijn",
+                            "list": [
+                                {
+                                    "item": "Draag zorg voor wie ziek is of zich niet goed voelt. Voorzie een goed ingerichte ziekenruimte die niet te ver ligt van de rest van de groep en aarzel nooit om een dokter te raadplegen."
+                                },
+                                {
+                                    "item": "Maak een duidelijk en helder schema per lid met de te geven medicatie, de dosis en wie deze medicatie geeft."
+                                },
+                                {
+                                    "item": "Maak een duidelijk en helder schema per lid met de uit te voeren verpleegkundige handelingen en de persoon die deze mag uitvoeren (de Bekwame Helper)."
+                                },
+                                {
+                                    "item": "Zijn er leden of deelnemers met een extra zorgnood? Laat de ouders of opvoedingsverantwoordelijke de zorgfiche invullen."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "moreInfo": {
+                "title": "Meer weten",
+                "list": [
+                    {
+                        "title": "[Komaf.be](https://komaf.be)"
+                    },
+                    {
+                        "title": "Eerste hulp bij ongevallen? [jeugd.rodekruis.be](https://jeugd.rodekruis.be)"
+                    },
+                    {
+                        "title": "Bekwame helper: [www.scoutsengidsenvlaanderen.be/de-bekwame-helper](https://www.scoutsengidsenvlaanderen.be/de-bekwame-helper)"
+                    },
+                    {
+                        "title": "Activiteiten dagelijks leven: [www.scoutsengidsenvlaanderen.be/activiteiten-van-het-dagelijks-leven](https://www.scoutsengidsenvlaanderen.be/activiteiten-van-het-dagelijks-leven)"
                     }
                 ]
             }
