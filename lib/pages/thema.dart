@@ -17,48 +17,51 @@ class Thema extends StatelessWidget {
       appBar: AppBar(title: Text(chapter?.title.toUpperCase() ?? '')),
       body: chapter == null
           ? null
-          : ListView(padding: const EdgeInsets.all(20), children: [
-              ...chapter.subchapters
-                  .where((s) => s.content?.isNotEmpty ?? false)
-                  .map((s) => Padding(
-                      padding: const EdgeInsets.only(bottom: 24),
-                      child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            s.title?.isEmpty ?? false
-                                ? Container()
-                                : Text(s.title?.toUpperCase() ?? '',
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .headlineLarge),
-                            s.description == null
-                                ? Container()
-                                : Text(s.description!),
-                            ...s.content
-                                    ?.map((i) => Rules(
-                                        type: i.type,
-                                        title: i.title,
-                                        description: i.description,
-                                        rules: i.list ?? []))
-                                    .toList() ??
-                                []
-                          ])))
-                  .toList(),
-              ...chapter.moreInfo == null
-                  ? []
-                  : [
-                      Text(chapter.moreInfo!.title,
-                          style: Theme.of(context).textTheme.headlineLarge),
-                      InfoItem(
-                          type: name,
-                          text:
-                              'Bekijk ook zeker onze vraag en antwoorden over ${chapter.title}! [Vragen en antwoorden](/vragen-en-antwoorden)'),
-                      ...chapter.moreInfo!.list
-                              ?.map((e) => InfoItem(type: name, text: e.title))
-                              .toList() ??
-                          [],
-                    ],
-            ]),
+          : SafeArea(
+              child: ListView(padding: const EdgeInsets.all(20), children: [
+                ...chapter.subchapters
+                    .where((s) => s.content?.isNotEmpty ?? false)
+                    .map((s) => Padding(
+                        padding: const EdgeInsets.only(bottom: 24),
+                        child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              s.title?.isEmpty ?? false
+                                  ? Container()
+                                  : Text(s.title?.toUpperCase() ?? '',
+                                      style: Theme.of(context)
+                                          .textTheme
+                                          .headlineLarge),
+                              s.description == null
+                                  ? Container()
+                                  : Text(s.description!),
+                              ...s.content
+                                      ?.map((i) => Rules(
+                                          type: i.type,
+                                          title: i.title,
+                                          description: i.description,
+                                          rules: i.list ?? []))
+                                      .toList() ??
+                                  []
+                            ])))
+                    .toList(),
+                ...chapter.moreInfo == null
+                    ? []
+                    : [
+                        Text(chapter.moreInfo!.title,
+                            style: Theme.of(context).textTheme.headlineLarge),
+                        InfoItem(
+                            type: name,
+                            text:
+                                'Bekijk ook zeker onze vraag en antwoorden over ${chapter.title}! [Vragen en antwoorden](/vragen-en-antwoorden)'),
+                        ...chapter.moreInfo!.list
+                                ?.map(
+                                    (e) => InfoItem(type: name, text: e.title))
+                                .toList() ??
+                            [],
+                      ],
+              ]),
+            ),
     );
   }
 }

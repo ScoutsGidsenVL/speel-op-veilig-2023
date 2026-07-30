@@ -25,81 +25,86 @@ class Home extends StatelessWidget {
             onPressed: () => Navigator.of(context).pushNamed('/wegwijs'),
             icon: const Icon(Icons.help_outline))
       ]),
-      body: SingleChildScrollView(
-          child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          Padding(
-              padding: const EdgeInsets.all(20),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text('Thema\'s',
-                      style: Theme.of(context).textTheme.headlineLarge),
-                  ...(dynamicData.chapters ?? [])
-                      .map((c) => TextButton(
-                            onPressed: () =>
-                                Navigator.pushNamed(context, '/${c.url}'),
-                            child: Padding(
-                                padding: const EdgeInsets.all(8),
-                                child: Row(children: [
-                                  Padding(
-                                      padding: const EdgeInsets.only(right: 4),
-                                      child: CustomIcon(type: c.url, size: 16)),
-                                  Text(c.title,
-                                      style: Theme.of(context)
-                                          .textTheme
-                                          .bodyMedium),
-                                ])),
-                          ))
-                      .toList(),
-                ],
-              )),
-          Padding(
-              padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
-              child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text('Bijkomende info',
-                        style: Theme.of(context).textTheme.headlineLarge),
-                    ..._infoPages
-                        .map((i) => TextButton(
-                              onPressed: () =>
-                                  Navigator.pushNamed(context, i.key),
-                              child: Padding(
-                                  padding: const EdgeInsets.all(8),
-                                  child: Row(children: [
-                                    Text(i.value,
-                                        style: Theme.of(context)
-                                            .textTheme
-                                            .bodyMedium)
-                                  ])),
-                            ))
-                        .toList()
-                  ])),
-          Material(
-              color: Theme.of(context).colorScheme.primary,
-              child: Padding(
+      body: SafeArea(
+        child: SingleChildScrollView(
+            child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Padding(
                 padding: const EdgeInsets.all(20),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.only(bottom: 4),
-                      child: Text('Scouts en Gidsen Vlaanderen ©',
-                          style: TextStyle(
-                              fontSize: 16,
-                              color: Theme.of(context).colorScheme.onPrimary)),
-                    ),
-                    Text(
-                        'Speel op Veilig v${dynamicData.packageInfo?.version ?? '?'}',
-                        style:
-                            const TextStyle(fontSize: 14, color: Colors.grey)),
+                    Text('Thema\'s',
+                        style: Theme.of(context).textTheme.headlineLarge),
+                    ...(dynamicData.chapters ?? [])
+                        .map((c) => TextButton(
+                              onPressed: () =>
+                                  Navigator.pushNamed(context, '/${c.url}'),
+                              child: Padding(
+                                  padding: const EdgeInsets.all(8),
+                                  child: Row(children: [
+                                    Padding(
+                                        padding:
+                                            const EdgeInsets.only(right: 4),
+                                        child:
+                                            CustomIcon(type: c.url, size: 16)),
+                                    Text(c.title,
+                                        style: Theme.of(context)
+                                            .textTheme
+                                            .bodyMedium),
+                                  ])),
+                            ))
+                        .toList(),
                   ],
-                ),
-              )),
-        ],
-      )),
+                )),
+            Padding(
+                padding: const EdgeInsets.only(left: 20, right: 20, bottom: 20),
+                child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text('Bijkomende info',
+                          style: Theme.of(context).textTheme.headlineLarge),
+                      ..._infoPages
+                          .map((i) => TextButton(
+                                onPressed: () =>
+                                    Navigator.pushNamed(context, i.key),
+                                child: Padding(
+                                    padding: const EdgeInsets.all(8),
+                                    child: Row(children: [
+                                      Text(i.value,
+                                          style: Theme.of(context)
+                                              .textTheme
+                                              .bodyMedium)
+                                    ])),
+                              ))
+                          .toList()
+                    ])),
+            Material(
+                color: Theme.of(context).colorScheme.primary,
+                child: Padding(
+                  padding: const EdgeInsets.all(20),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 4),
+                        child: Text('Scouts en Gidsen Vlaanderen ©',
+                            style: TextStyle(
+                                fontSize: 16,
+                                color:
+                                    Theme.of(context).colorScheme.onPrimary)),
+                      ),
+                      Text(
+                          'Speel op Veilig v${dynamicData.packageInfo?.version ?? '?'}',
+                          style: const TextStyle(
+                              fontSize: 14, color: Colors.grey)),
+                    ],
+                  ),
+                )),
+          ],
+        )),
+      ),
     );
   }
 }

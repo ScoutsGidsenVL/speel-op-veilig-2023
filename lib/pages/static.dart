@@ -15,9 +15,10 @@ class Static extends StatelessWidget {
     var body = context.watch<DynamicData>().text[path];
     return Scaffold(
         appBar: AppBar(title: Text(title.toUpperCase())),
-        body: Markdown(
-            data: body ?? '',
-            styleSheet: markdownStyle(context),
-            onTapLink: linkHandler(context)));
+        body: SafeArea(
+            child: Markdown(
+                data: body ?? '',
+                styleSheet: markdownStyle(context),
+                onTapLink: linkHandler(context))));
   }
 }

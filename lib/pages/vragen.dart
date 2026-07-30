@@ -43,7 +43,8 @@ class VragenState extends State<Vragen> {
 
     return Scaffold(
         appBar: AppBar(title: const Text('VRAAG EN ANTWOORD')),
-        body: ListView(padding: const EdgeInsets.all(20), children: [
+        body: SafeArea(
+            child: ListView(padding: const EdgeInsets.all(20), children: [
           Padding(
               padding: const EdgeInsets.only(bottom: 12),
               child: ExpandablePanel(
@@ -100,6 +101,6 @@ class VragenState extends State<Vragen> {
                               onTapLink: linkHandler(context)),
                     ],
                   )))
-        ]));
+        ])));
   }
 }

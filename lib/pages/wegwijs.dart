@@ -24,7 +24,8 @@ class Wegwijs extends StatelessWidget {
     var parts = body.replaceAll("\r\n", "\n").split("\n\n## ");
     return Scaffold(
         appBar: AppBar(title: Text(title.toUpperCase())),
-        body: ListView(
+        body: SafeArea(
+            child: ListView(
           padding: const EdgeInsets.all(20),
           children: parts.asMap().entries.map((p) {
             var i = p.value.indexOf("\n");
@@ -59,6 +60,6 @@ class Wegwijs extends StatelessWidget {
                           onTapLink: linkHandler(context))
                     ]));
           }).toList(),
-        ));
+        )));
   }
 }
